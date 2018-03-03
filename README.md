@@ -12,11 +12,13 @@ My personal development setup, for Frontend Development on Windows.
 
 Lightweigh Code Editor, focused on Web Development. Usually I prefer the Insiders Build.
 
-### Theme
+Theme: **[Oceanic Next](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext)**
 
-- **[Oceanic Next](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext)**
+<br>
 
 ### Extensions
+
+The following are my extensions, the "must haves" are marked by a plus sign:
 
 |       | Extension                                                                                                                         | Description          |
 | :---: | --------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
@@ -48,9 +50,10 @@ Lightweigh Code Editor, focused on Web Development. Usually I prefer the Insider
 
 ### Settings
 
+The following are my user settings, grouped by default - language - extensions:
+
 ``` json
 {
-    // Default settings
     "editor.fontSize": 13,
     "editor.lineHeight": 20,
     "editor.minimap.maxColumn": 140,
@@ -65,7 +68,6 @@ Lightweigh Code Editor, focused on Web Development. Usually I prefer the Insider
     "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "Oceanic Next (dimmed bg)",
 
-    // Languages
     "html.format.indentInnerHtml": true,
     "html.format.wrapLineLength": 140,
     "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
@@ -76,14 +78,17 @@ Lightweigh Code Editor, focused on Web Development. Usually I prefer the Insider
     "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
     "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
 
-    // Extension settings
     "docthis.includeMemberOfOnClassMembers": false,
     "docthis.includeMemberOfOnInterfaceMembers": false,
     "docthis.includeTypes": false
 }
 ```
 
+<br>
+
 ### Keybindings
+
+The following are my user keybindings:
 
 ``` json
 [
