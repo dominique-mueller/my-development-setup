@@ -4,6 +4,8 @@
 
 My personal development setup, for Frontend Development on Windows.
 
+<sup>*Currently specialized on Angular 2+ development.*</sup>
+
 </div>
 
 <br><br>
@@ -12,7 +14,7 @@ My personal development setup, for Frontend Development on Windows.
 
 Lightweigh Code Editor, focused on Web Development. Usually I prefer the Insiders Build.
 
-Theme: **[Oceanic Next](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext)**
+> Theme: **[Oceanic Next](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext)**
 
 <br>
 
@@ -102,7 +104,21 @@ The following are my user keybindings:
 
 <br><br><br>
 
-## 2
+## Git
+
+TODO: Download link, default settings
+
+<br><br><br>
+
+## NodeJS
+
+TODO: Download link, global packages
+
+<br><br><br>
+
+## ConEmu
+
+TODO: Download link, Theme, Settings, PoshGit
 
 <br><br><br>
 
