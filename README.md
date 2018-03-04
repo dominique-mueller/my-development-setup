@@ -8,6 +8,16 @@ My personal development setup, for Frontend Development on Windows.
 
 <br><br>
 
+## Table of Contents
+
+- **[Visual Studio Code](#visual-studio-code)**<br>Theme, Extensions, Settings, Keybinding
+- **[Google Chrome](#google-chrome)**<br>Extensions
+- **[Git](#git)**<br>Settings, Commit Signing
+- **[NodeJS](#nodejs)**<br>Global Packages
+- **[ConEmu](#conemu)**<br>TODO
+
+<br><br><br>
+
 ## [Visual Studio Code](https://code.visualstudio.com/)
 
 Lightweigh Code Editor, focused on Web Development. Usually I prefer the Insiders Build.
