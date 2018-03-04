@@ -141,9 +141,16 @@ TODO: Download link, default settings
 
 <br><br><br>
 
-## NodeJS
+## [NodeJS](https://nodejs.org/)
 
-TODO: Download link, global packages
+If possible, installed via **[nvm for Windows](https://github.com/coreybutler/nvm-windows)**.
+
+### Global packages
+
+Useful global packages:
+
+- [`ts-node`](https://github.com/TypeStrong/ts-node) quickly compiles and runs TypeScript files
+- [`npm-check-updates`](https://github.com/tjunnone/npm-check-updates) checks for newer versions of npm packages
 
 <br><br><br>
 
