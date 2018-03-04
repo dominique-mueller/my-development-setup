@@ -4,8 +4,6 @@
 
 My personal development setup, for Frontend Development on Windows.
 
-<sup>*Currently specialized on Angular 2+ development.*</sup>
-
 </div>
 
 <br><br>
@@ -108,6 +106,8 @@ The following are my user keybindings:
 
 Primary browser for development purposes.
 
+<br>
+
 ### Extensions
 
 The following are my extensions, the "must haves" are marked by a plus sign:
@@ -135,15 +135,45 @@ The following are my extensions, the "must haves" are marked by a plus sign:
 
 <br><br><br>
 
-## Git
+## [Git](https://git-scm.com/)
 
-TODO: Download link, default settings
+Version Control Software, accessibly via command line.
+
+<br>
+
+### Settings
+
+``` conf
+user.name=<NAME>
+user.email=<EMAIL>
+push.default=simple # Simplify pushing to remote
+push.followtags=true # Always push tags along
+status.showUntrackedFiles=all # Show all files when changing directories
+credential.helper=wincred # Remember credentials
+```
+
+> Also read **[Better Git configuration](https://blog.scottnonnenberg.com/better-git-configuration/)**.
+
+<br>
+
+### Commit Signing with GPG
+
+When working on GitHub, I usually set up **[Commit Signing via GPG](https://help.github.com/articles/signing-commits-with-gpg/)**. The
+following coniguration is needed:
+
+``` conf
+user.signingkey=<KEY>
+commit.gpgsign=true
+gpg.program=C:/Program Files (x86)/GNU/GnuPG/gpg2.exe
+```
 
 <br><br><br>
 
 ## [NodeJS](https://nodejs.org/)
 
 If possible, installed via **[nvm for Windows](https://github.com/coreybutler/nvm-windows)**.
+
+<br>
 
 ### Global packages
 
