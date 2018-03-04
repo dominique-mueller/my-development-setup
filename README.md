@@ -104,6 +104,37 @@ The following are my user keybindings:
 
 <br><br><br>
 
+## [Google Chrome](https://www.google.de/chrome/index.html)
+
+Primary browser for development purposes.
+
+### Extensions
+
+The following are my extensions, the "must haves" are marked by a plus sign:
+
+|       | Extension                                                                                                                         | Description          |
+| :---: | --------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+|       | **[Augury](https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd)** | Adds tools for debugging and profiling Angular applications |
+|       | **[Awesome Autocomplete for GitHub](https://chrome.google.com/webstore/detail/awesome-autocomplete-for/djkfdjpoelphhdclfjhnffmnlnoknfnd?utm_source=chrome-app-launcher-info-dialog)** | Enhances the GitHub search autocomplete |
+|       | **[aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)** | Adds tools for accessibility testing |
+|       | **[Baseliner](https://chrome.google.com/webstore/detail/baseliner/agoopbiflnjadjfbhimhlmcbgmdgldld)** | Show lines for vertical rhythm |
+|       | **[ChromeLens](https://chrome.google.com/webstore/detail/chromelens/idikgljglpfilbhaboonnpnnincjhjkd/related)** | Simulates visual impairments |
+| **+** | **[ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?utm_source=chrome-app-launcher-info-dialog)** | Color Picker |
+|       | **[Contributors on GitHub](https://chrome.google.com/webstore/detail/contributors-on-github/cjbacdldhllelehomkmlniifaojgaeph?utm_source=chrome-app-launcher-info-dialog)** | Shows contribution details on GitHub PRs |
+| **+** | **[Dimensions](https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?utm_source=chrome-app-launcher-info-dialog)** | Measure dimensions of elements on hover |
+|       | **[Fireshot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?utm_source=chrome-app-launcher-info-dialog)** | Makes full-sized screenshots |
+|       | **[Mindful](https://chrome.google.com/webstore/detail/mindful-beta/cieekmjjdkckhpidgaffphlaljdfhhab?utm_source=chrome-app-launcher-info-dialog)** | Shows a beautiful notepad as the new tab page |
+|       | **[JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?utm_source=chrome-app-launcher-info-dialog)** | Formats JSON files opened in the browser |
+| **+** | **[Pesticide](https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh?utm_source=chrome-app-launcher-info-dialog)** | Shows elements outlines |
+|       | **[GitHub Hovercard](https://chrome.google.com/webstore/detail/github-hovercard/mmoahbbnojgkclgceahhakhnccimnplk?utm_source=chrome-app-launcher-info-dialog)** | Shows link information on hover |
+|       | **[Tab Size on GitHub](https://chrome.google.com/webstore/detail/tab-size-on-github/ofjbgncegkdemndciafljngjbdpfmbkn?utm_source=chrome-app-launcher-info-dialog)** | Decreases GitHub indentation wideness |
+| **+** | **[Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?utm_source=chrome-app-launcher-info-dialog)** | Detects technologies used by a website |
+|       | **[WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)** | Adds tools for accessibility testing |
+| **+** | **[Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?utm_source=chrome-app-launcher-info-dialog)** | Toolbar with various development helpers |
+| **+** | **[WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?utm_source=chrome-app-launcher-info-dialog)** | Shows used font family on hover |
+
+<br><br><br>
+
 ## Git
 
 TODO: Download link, default settings
