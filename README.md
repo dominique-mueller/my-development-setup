@@ -35,6 +35,7 @@ The following are my extensions, the "must haves" are marked by a plus sign:
 | **+** | **[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)**                           | Extended autocomplete & info for Angular |
 | **+** | **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                          | Automatically renames paired HTML tags |
 | **+** | **[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)**                | Colorizes matching brackets |
+|       | **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                                | Shows code complexity |
 |       | **[Code Oultine](https://marketplace.visualstudio.com/items?itemName=patrys.vscode-code-outline)**                                | Shows code outline tree in explorer pane |
 | **+** | **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                       | Debug Chrome within Visual Studio Code |
 | **+** | **[Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)**                                          | Generate JSDoc comments |
@@ -190,7 +191,6 @@ If possible, installed via **[nvm for Windows](https://github.com/coreybutler/nv
 Useful global packages:
 
 - [`ts-node`](https://github.com/TypeStrong/ts-node) quickly compiles and runs TypeScript files
-- [`npm-check-updates`](https://github.com/tjunnone/npm-check-updates) checks for newer versions of npm packages
 
 <br><br><br>
 
