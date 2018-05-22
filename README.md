@@ -163,10 +163,18 @@ push.default=simple # Simplify pushing to remote
 push.followtags=true # Always push tags along
 status.showUntrackedFiles=all # Show all files when changing directories
 credential.helper=wincred # Remember credentials
-alias.set-upstream=!git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD` # Set upstream alias
 ```
 
 > Also read **[Better Git configuration](https://blog.scottnonnenberg.com/better-git-configuration/)**.
+
+<br>
+
+### Alias
+
+``` conf
+alias.set-upstream=!git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD` # Set upstream of current branch
+alias.pop=reset HEAD^ # Revert last commit while keeping the changes
+```
 
 <br>
 
