@@ -173,7 +173,8 @@ credential.helper=wincred # Remember credentials
 
 ``` conf
 alias.set-upstream=!git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD` # Set upstream of current branch
-alias.pop=reset HEAD^ # Revert last commit while keeping the changes
+alias.pop=!git reset HEAD^ # Revert last commit while keeping the changes
+alias.clone-unsecure=!git -c http.sslVerify=false clone # Clone withou SSL cert verification
 ```
 
 <br>
