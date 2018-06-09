@@ -36,6 +36,7 @@ The following are my extensions, the "must haves" are marked by a plus sign:
 | **+** | **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                          | Automatically renames paired HTML tags |
 | **+** | **[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**                             | Colorizes comments based on type |
 | **+** | **[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)**                | Colorizes matching brackets |
+|       | **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                                | Shows code complexity |
 |       | **[Code Oultine](https://marketplace.visualstudio.com/items?itemName=patrys.vscode-code-outline)**                                | Shows code outline tree in explorer pane |
 | **+** | **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                       | Debug Chrome within Visual Studio Code |
 | **+** | **[Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)**                                          | Generate JSDoc comments |
@@ -139,6 +140,8 @@ The following are my extensions, the "must haves" are marked by a plus sign:
 |       | **[JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?utm_source=chrome-app-launcher-info-dialog)** | Formats JSON files opened in the browser |
 | **+** | **[Pesticide](https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh?utm_source=chrome-app-launcher-info-dialog)** | Shows elements outlines |
 |       | **[GitHub Hovercard](https://chrome.google.com/webstore/detail/github-hovercard/mmoahbbnojgkclgceahhakhnccimnplk?utm_source=chrome-app-launcher-info-dialog)** | Shows link information on hover |
+|       | **[GitHub Repository Size](https://chrome.google.com/webstore/detail/github-repository-size/apnjnioapinblneaedefcnopcjepgkci)** | Shows file sizes in repository view |
+|       | **[GitHub Markdown Menu](https://chrome.google.com/webstore/detail/github-markdown-menu/jekgocfoijmbgcjejohdgmojaejofdpo)** | Shows a markdown table of contents as a dropdown menu |
 |       | **[Tab Size on GitHub](https://chrome.google.com/webstore/detail/tab-size-on-github/ofjbgncegkdemndciafljngjbdpfmbkn?utm_source=chrome-app-launcher-info-dialog)** | Decreases GitHub indentation wideness |
 | **+** | **[Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?utm_source=chrome-app-launcher-info-dialog)** | Detects technologies used by a website |
 |       | **[WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)** | Adds tools for accessibility testing |
@@ -168,6 +171,16 @@ credential.helper=wincred # Remember credentials
 
 <br>
 
+### Alias
+
+``` conf
+alias.set-upstream=!git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD` # Set upstream of current branch
+alias.pop=!git reset HEAD^ # Revert last commit while keeping the changes
+alias.clone-unsecure=!git -c http.sslVerify=false clone # Clone withou SSL cert verification
+```
+
+<br>
+
 ### Commit Signing with GPG
 
 When working on GitHub, I usually set up **[Commit Signing via GPG](https://help.github.com/articles/signing-commits-with-gpg/)**. The
@@ -192,7 +205,6 @@ If possible, installed via **[nvm for Windows](https://github.com/coreybutler/nv
 Useful global packages:
 
 - [`ts-node`](https://github.com/TypeStrong/ts-node) quickly compiles and runs TypeScript files
-- [`npm-check-updates`](https://github.com/tjunnone/npm-check-updates) checks for newer versions of npm packages
 
 <br><br><br>
 
