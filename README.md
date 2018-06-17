@@ -36,13 +36,14 @@ The following are my extensions, the "must haves" are marked by a plus sign:
 | **+** | **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                          | Automatically renames paired HTML tags |
 | **+** | **[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**                             | Colorizes comments based on type |
 | **+** | **[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)**                | Colorizes matching brackets |
-|       | **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                                | Shows code complexity |
-|       | **[Code Oultine](https://marketplace.visualstudio.com/items?itemName=patrys.vscode-code-outline)**                                | Shows code outline tree in explorer pane |
+|       | **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                           | Shows code complexity |
 | **+** | **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                       | Debug Chrome within Visual Studio Code |
 | **+** | **[Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)**                                          | Generate JSDoc comments |
 | **+** | **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**                                 | Apply settings defined in .editconfig file |
 |       | **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**                                                | Enhanced Git support |
 | **+** | **[Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)**                                                 | Adds indentation guide lines |
+|       | **[Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)**                      | Adds image preview next to lines |
+|       | **[JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)**                              | Creates TypeScript interfaces from JSON |
 | **+** | **[JSON5 syntax](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5)**                                       | Adds JSON5 file support |
 | **+** | **[Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)** | Markdown Preview Github Theme |
 |       | **[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)**                                                  | Captures beautiful code screenshots |
@@ -52,7 +53,7 @@ The following are my extensions, the "must haves" are marked by a plus sign:
 | **+** | **[Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)**                                           | Quickly sort lines |
 | **+** | **[SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)**                                      | SVG file support |
 | **+** | **[TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)**                             | Highlight TODOs, FIXMEs and similar |
-|       | **[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-treet)**                                       | Adds a TODO panel listing all TODO comments |
+| **+** | **[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-treet)**                                       | Adds a TODO panel listing all TODO comments |
 | **+** | **[Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)**                             | Highlight and remove trailing spaces |
 | **+** | **[TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)**                                                      | TS file linter |
 | **+** | **[Typescript Deporter](https://marketplace.visualstudio.com/items?itemName=Acr0most.ts-deporter)**                               | Remove ununsed TypeScript imports |
