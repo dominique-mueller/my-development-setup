@@ -64,37 +64,97 @@ The following are my extensions, the "must haves" are marked by a plus sign:
 
 ### Settings
 
-The following are my user settings, grouped by default - language - extensions:
+The following are my user settings, ordered by default - then language-related - then extensions:
 
 ``` json
 {
+
+    // Window
+    "window.menuBarVisibility": "toggle",
+    "window.newWindowDimensions": "maximized",
+
+    // Editor
+    "editor.detectIndentation": false,
     "editor.fontSize": 13,
-    "editor.lineHeight": 20,
-    "editor.minimap.maxColumn": 140,
-    "editor.renderIndentGuides": false,
-    "editor.roundedSelection": false,
+    "editor.lineHeight": 19,
+    "editor.formatOnSave": false,
     "editor.rulers": [
         140
     ],
-    "files.trimTrailingWhitespace": true,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "terminal.integrated.scrollback": 100000,
-    "window.menuBarVisibility": "toggle",
+    "editor.roundedSelection": false,
+    "editor.renderIndentGuides": false,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": true,
+    "editor.wordWrap": "on",
+
+    // Explorer
+    "explorer.openEditors.visible": 0,
+    "explorer.confirmDragAndDrop": false,
+
+    // Workbench
     "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.statusBar.feedback.visible": false,
 
+    // Terminal
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.scrollback": 100000,
+    "terminal.integrated.cursorBlinking": true,
+
+    // Insert new line
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    // HTML
     "html.format.indentInnerHtml": true,
+    "html.format.endWithNewline": true,
     "html.format.wrapLineLength": 140,
-    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
-    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
 
+    // TypeScript
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.preferences.importModuleSpecifier": "relative",
+
+    // JavaScript
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.preferences.importModuleSpecifier": "relative",
+
+    // TSlint
+    "tslint.autoFixOnSave": true,
+    "tslint.alwaysShowStatus": true,
+    "tslint.jsEnable": true,
+
+    // TODO highlight
+    "todohighlight.isCaseSensitive": false,
+
+    // TODO tree
+    "todo-tree.expanded": true,
+    "todo-tree.flat": true,
+
+    // Document This
     "docthis.includeMemberOfOnClassMembers": false,
     "docthis.includeMemberOfOnInterfaceMembers": false,
-    "docthis.includeTypes": false
+    "docthis.includeTypes": false,
+
+    // Git Lens
+    "gitlens.keymap": "alternate",
+    "gitlens.advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": false,
+      "suppressCommitNotFoundWarning": false,
+      "suppressFileNotUnderSourceControlWarning": false,
+      "suppressGitVersionWarning": false,
+      "suppressLineUncommittedWarning": false,
+      "suppressNoRepositoryWarning": false,
+      "suppressResultsExplorerNotice": false,
+      "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true
+
 }
 ```
 
