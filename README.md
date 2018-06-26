@@ -34,14 +34,16 @@ The following are my extensions, the "must haves" are marked by a plus sign:
 | :---: | --------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
 | **+** | **[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)**                           | Extended autocomplete & info for Angular |
 | **+** | **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                          | Automatically renames paired HTML tags |
+| **+** | **[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**                             | Colorizes comments based on type |
 | **+** | **[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)**                | Colorizes matching brackets |
-|       | **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                                | Shows code complexity |
-|       | **[Code Oultine](https://marketplace.visualstudio.com/items?itemName=patrys.vscode-code-outline)**                                | Shows code outline tree in explorer pane |
+|       | **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                           | Shows code complexity |
 | **+** | **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                       | Debug Chrome within Visual Studio Code |
 | **+** | **[Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)**                                          | Generate JSDoc comments |
 | **+** | **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**                                 | Apply settings defined in .editconfig file |
 |       | **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**                                                | Enhanced Git support |
 | **+** | **[Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)**                                                 | Adds indentation guide lines |
+|       | **[Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)**                      | Adds image preview next to lines |
+|       | **[JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)**                              | Creates TypeScript interfaces from JSON |
 | **+** | **[JSON5 syntax](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5)**                                       | Adds JSON5 file support |
 | **+** | **[Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)** | Markdown Preview Github Theme |
 | **+** | **[Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)**                                 | Open HTML in browser (default vs. select) |
@@ -52,6 +54,7 @@ The following are my extensions, the "must haves" are marked by a plus sign:
 | **+** | **[Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)**                                           | Quickly sort lines |
 | **+** | **[SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)**                                      | SVG file support |
 | **+** | **[TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)**                             | Highlight TODOs, FIXMEs and similar |
+| **+** | **[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-treet)**                                       | Adds a TODO panel listing all TODO comments |
 | **+** | **[Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)**                             | Highlight and remove trailing spaces |
 | **+** | **[TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)**                                                      | TS file linter |
 | **+** | **[Typescript Deporter](https://marketplace.visualstudio.com/items?itemName=Acr0most.ts-deporter)**                               | Remove ununsed TypeScript imports |
@@ -61,37 +64,97 @@ The following are my extensions, the "must haves" are marked by a plus sign:
 
 ### Settings
 
-The following are my user settings, grouped by default - language - extensions:
+The following are my user settings, ordered by default - then language-related - then extensions:
 
 ``` json
 {
+
+    // Window
+    "window.menuBarVisibility": "toggle",
+    "window.newWindowDimensions": "maximized",
+
+    // Editor
+    "editor.detectIndentation": false,
     "editor.fontSize": 13,
-    "editor.lineHeight": 20,
-    "editor.minimap.maxColumn": 140,
-    "editor.renderIndentGuides": false,
-    "editor.roundedSelection": false,
+    "editor.lineHeight": 19,
+    "editor.formatOnSave": false,
     "editor.rulers": [
         140
     ],
-    "files.trimTrailingWhitespace": true,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "terminal.integrated.scrollback": 100000,
-    "window.menuBarVisibility": "toggle",
+    "editor.roundedSelection": false,
+    "editor.renderIndentGuides": false,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": true,
+    "editor.wordWrap": "on",
+
+    // Explorer
+    "explorer.openEditors.visible": 0,
+    "explorer.confirmDragAndDrop": false,
+
+    // Workbench
     "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.statusBar.feedback.visible": false,
 
+    // Terminal
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.scrollback": 100000,
+    "terminal.integrated.cursorBlinking": true,
+
+    // Insert new line
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    // HTML
     "html.format.indentInnerHtml": true,
+    "html.format.endWithNewline": true,
     "html.format.wrapLineLength": 140,
-    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
-    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
 
+    // TypeScript
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.preferences.importModuleSpecifier": "relative",
+
+    // JavaScript
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.preferences.importModuleSpecifier": "relative",
+
+    // TSlint
+    "tslint.autoFixOnSave": true,
+    "tslint.alwaysShowStatus": true,
+    "tslint.jsEnable": true,
+
+    // TODO highlight
+    "todohighlight.isCaseSensitive": false,
+
+    // TODO tree
+    "todo-tree.expanded": true,
+    "todo-tree.flat": true,
+
+    // Document This
     "docthis.includeMemberOfOnClassMembers": false,
     "docthis.includeMemberOfOnInterfaceMembers": false,
-    "docthis.includeTypes": false
+    "docthis.includeTypes": false,
+
+    // Git Lens
+    "gitlens.keymap": "alternate",
+    "gitlens.advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": false,
+      "suppressCommitNotFoundWarning": false,
+      "suppressFileNotUnderSourceControlWarning": false,
+      "suppressGitVersionWarning": false,
+      "suppressLineUncommittedWarning": false,
+      "suppressNoRepositoryWarning": false,
+      "suppressResultsExplorerNotice": false,
+      "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true
+
 }
 ```
 
