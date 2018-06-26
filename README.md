@@ -44,6 +44,7 @@ The following are my extensions, the "must haves" are marked by a plus sign:
 | **+** | **[Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)**                                                 | Adds indentation guide lines |
 | **+** | **[JSON5 syntax](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5)**                                       | Adds JSON5 file support |
 | **+** | **[Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)** | Markdown Preview Github Theme |
+| **+** | **[Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)**                                 | Open HTML in browser (default vs. select) |
 |       | **[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)**                                                  | Captures beautiful code screenshots |
 | **+** | **[Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)**                            | Manages multiple projects |
 | **+** | **[Sass](https://marketplace.visualstudio.com/items?itemName=robinbentley.sass-indented)**                                        | SASS file support |
@@ -55,7 +56,6 @@ The following are my extensions, the "must haves" are marked by a plus sign:
 | **+** | **[TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)**                                                      | TS file linter |
 | **+** | **[Typescript Deporter](https://marketplace.visualstudio.com/items?itemName=Acr0most.ts-deporter)**                               | Remove ununsed TypeScript imports |
 | **+** | **[Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)**                              | Show dependency version infos in package.json |
-| **+** | **[View In Browser](https://marketplace.visualstudio.com/items?itemName=qinjia.view-in-browser)**                                 | Directly open file in browser |
 
 <br>
 
