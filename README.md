@@ -30,35 +30,36 @@ Lightweigh Code Editor, focused on Web Development. Usually I prefer the Insider
 
 The following are my extensions, the "must haves" are marked by a plus sign:
 
-|       | Extension                                                                                                                         | Description          |
-| :---: | --------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| **+** | **[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)**                           | Extended autocomplete & info for Angular |
-| **+** | **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                          | Automatically renames paired HTML tags |
-| **+** | **[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**                             | Colorizes comments based on type |
-| **+** | **[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)**                | Colorizes matching brackets |
-|       | **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                           | Shows code complexity |
-| **+** | **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                       | Debug Chrome within Visual Studio Code |
-| **+** | **[Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)**                                          | Generate JSDoc comments |
-| **+** | **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**                                 | Apply settings defined in .editconfig file |
-|       | **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**                                                | Enhanced Git support |
-| **+** | **[Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)**                                                 | Adds indentation guide lines |
-|       | **[Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)**                      | Adds image preview next to lines |
-|       | **[JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)**                              | Creates TypeScript interfaces from JSON |
-| **+** | **[JSON5 syntax](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5)**                                       | Adds JSON5 file support |
-| **+** | **[Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)** | Markdown Preview Github Theme |
-|       | **[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)**                                                  | Captures beautiful code screenshots |
-| **+** | **[Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)**                            | Manages multiple projects |
-| **+** | **[Sass](https://marketplace.visualstudio.com/items?itemName=robinbentley.sass-indented)**                                        | SASS file support |
-| **+** | **[Sass Lint](https://marketplace.visualstudio.com/items?itemName=glen-84.sass-lint)**                                            | SASS file linter |
-| **+** | **[Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)**                                           | Quickly sort lines |
-| **+** | **[SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)**                                      | SVG file support |
-| **+** | **[TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)**                             | Highlight TODOs, FIXMEs and similar |
-| **+** | **[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-treet)**                                       | Adds a TODO panel listing all TODO comments |
-| **+** | **[Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)**                             | Highlight and remove trailing spaces |
-| **+** | **[TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)**                                                      | TS file linter |
-| **+** | **[Typescript Deporter](https://marketplace.visualstudio.com/items?itemName=Acr0most.ts-deporter)**                               | Remove ununsed TypeScript imports |
-| **+** | **[Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)**                              | Show dependency version infos in package.json |
-| **+** | **[View In Browser](https://marketplace.visualstudio.com/items?itemName=qinjia.view-in-browser)**                                 | Directly open file in browser |
+|         | Extension                                                                                                                         | Description |
+| :-----: | --------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| :heart: | **[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)**                           | Extended autocomplete for Angular templates |
+| :heart: | **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                          | Automatically rename paired HTML tags |
+| :heart: | **[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**                             | Colorizes comments based on type |
+| :heart: | **[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)**                | Colorizes matching brackets |
+|         | **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                           | Shows code complexity |
+| :heart: | **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                       | Debug Chrome within Visual Studio Code |
+| :heart: | **[Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)**                                          | Generate JSDoc comments |
+| :heart: | **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**                                 | Apply settings defined in .editconfig file |
+| :heart: | **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**                                                | Enhanced Git support |
+| :heart: | **[Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)**                                                 | Adds indentation guide lines |
+|         | **[Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)**                      | Adds image preview next to lines |
+|         | **[JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)**                              | Creates TypeScript interfaces from JSON |
+| :heart: | **[JSON5 syntax](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5)**                                       | Adds JSON5 file support |
+| :heart: | **[Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)** | Markdown Preview Github Theme |
+|         | **[Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=hbrok.markdown-preview-bitbucket)**       | Markdown Preview BitBucket Theme |
+|         | **[Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)**                                       | Compare stuff |
+|         | **[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)**                                                  | Captures beautiful code screenshots |
+| :heart: | **[Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)**                            | Manages multiple projects |
+| :heart: | **[Sass](https://marketplace.visualstudio.com/items?itemName=robinbentley.sass-indented)**                                        | SASS file support |
+| :heart: | **[Sass Lint](https://marketplace.visualstudio.com/items?itemName=glen-84.sass-lint)**                                            | SASS file linter |
+| :heart: | **[Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)**                                           | Quickly sort lines |
+| :heart: | **[SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)**                                      | SVG file support |
+| :heart: | **[TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)**                             | Highlight TODOs, FIXMEs and similar |
+| :heart: | **[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-treet)**                                       | Adds a TODO panel listing all TODO comments |
+| :heart: | **[Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)**                             | Highlight and remove trailing spaces |
+| :heart: | **[TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)**                                                      | TS file linter |
+| :heart: | **[Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)**                              | Show dependency version infos in package.json |
+| :heart: | **[View In Browser](https://marketplace.visualstudio.com/items?itemName=qinjia.view-in-browser)**                                 | Directly open file in browser |
 
 <br>
 
