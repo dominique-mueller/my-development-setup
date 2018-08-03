@@ -67,7 +67,7 @@ The following are my extensions, the "must haves" are marked by a plus sign:
 
 The following are my user settings, ordered by default - then language-related - then extensions:
 
-``` json
+``` javascript
 {
 
     // Window
@@ -165,12 +165,16 @@ The following are my user settings, ordered by default - then language-related -
 
 The following are my user keybindings:
 
-``` json
+``` javascript
 [
     {
         "key": "ctrl+shift+space",
         "command": "editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+f4",
+        "command": "workbench.action.reloadWindow"
     }
 ]
 ```
