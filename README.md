@@ -280,13 +280,13 @@ gpg.program=C:/Program Files (x86)/GNU/GnuPG/gpg2.exe
 
 ## [NodeJS](https://nodejs.org/)
 
-If possible, installed via **[nvm for Windows](https://github.com/coreybutler/nvm-windows)**.
+Installed via **[nvm for Windows](https://github.com/coreybutler/nvm-windows)**.
+
+- Also see the **[script for upgrading npm](https://gist.github.com/johnmcase/d31b799b9030327091a0e74880e4c530)** (solving *[nvm issue #300](https://github.com/coreybutler/nvm-windows/issues/300)*)
 
 <br>
 
 ### Global packages
-
-Useful global packages:
 
 - [`ts-node`](https://github.com/TypeStrong/ts-node) quickly compiles and runs TypeScript files
 
