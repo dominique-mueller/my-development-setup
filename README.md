@@ -70,7 +70,7 @@ The following are my user settings, ordered by default - then language-related -
 {
 
     // Window
-    "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "custom"
     "window.newWindowDimensions": "maximized",
 
     // Editor
@@ -166,11 +166,15 @@ The following are my user keybindings:
 
 ``` json
 [
-    {
-        "key": "ctrl+shift+space",
-        "command": "editor.action.commentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    }
+  {
+    "key": "ctrl+shift+space",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+f4",
+    "command": "workbench.action.reloadWindow"
+  }
 ]
 ```
 
