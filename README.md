@@ -39,18 +39,18 @@ The following are my extensions, the "must haves" are marked by a heart:
 | :heart: | **[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)**                             | Add autocomplete to Angular templates |
 | :heart: | **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                            | Automatically renames paired HTML tags |
 | :heart: | **[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**                               | Colorizes comments based on type |
-| :heart: | **[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)**                  | Colorizes matching brackets |
+| :heart: | **[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)**              | Colorizes matching brackets |
 |         | **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                             | Shows code complexity |
 | :heart: | **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                         | Debug Chrome within Visual Studio Code |
 | :heart: | **[Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)**                                            | Generate JSDoc comments |
 | :heart: | **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**                                   | Apply settings defined in .editconfig file |
-|         | **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**                                                  | Enhanced Git support |
+| :heart: | **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**                                                  | Enhanced Git support |
 | :heart: | **[Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)**                                                   | Adds indentation guide lines |
 |         | **[Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)**                        | Adds image preview next to lines |
-|         | **[JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)**                                | Creates TypeScript interfaces from JSON |
+| :heart: | **[IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)**                       | AI-assisted autocompletion |
 | :heart: | **[JSON5 syntax](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5)**                                         | Adds JSON5 file support |
 | :heart: | **[Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)**   | Markdown Preview Github Theme |
-|         | **[Markdown Preview with BitBucket Styling](https://marketplace.visualstudio.com/items?itemName=hbrok.markdown-preview-bitbucket)** | Markdown Preview Github Theme |
+|         | **[Markdown Preview with BitBucket Styles](https://marketplace.visualstudio.com/items?itemName=hbrok.markdown-preview-bitbucket)**  | Markdown Preview Github Theme |
 | :heart: | **[Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)**                                   | Open HTML in browser (default vs. select) |
 |         | **[Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)**                                         | Compare things |
 |         | **[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)**                                                    | Captures beautiful code screenshots |
@@ -69,105 +69,65 @@ The following are my extensions, the "must haves" are marked by a heart:
 
 ### Settings
 
-The following are my user settings, ordered by default - then language-related - then extensions:
+The following are my settings (includes settings for extensions):
 
-``` javascript
+``` json
 {
-
-    // Window
-    "window.titleBarStyle": "custom"
-    "window.newWindowDimensions": "maximized",
-
-    // Editor
-    "editor.detectIndentation": false,
-    "editor.fontSize": 13,
-    "editor.lineHeight": 19,
-    "editor.formatOnSave": false,
-    "editor.rulers": [
-        140
-    ],
-    "editor.roundedSelection": false,
-    "editor.renderIndentGuides": false,
-    "editor.tabSize": 2,
-    "editor.minimap.enabled": true,
-    "editor.wordWrap": "on",
-
-    // Explorer
-    "explorer.openEditors.visible": 0,
-    "explorer.confirmDragAndDrop": false,
-
-    // Workbench
-    "workbench.colorTheme": "Oceanic Next (dimmed bg)",
-    "workbench.iconTheme": "vs-seti",
-    "workbench.statusBar.feedback.visible": false,
-
-    // Terminal
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "terminal.integrated.scrollback": 100000,
-    "terminal.integrated.cursorBlinking": true,
-
-    // Insert new line
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-
-    // HTML
-    "html.format.indentInnerHtml": true,
-    "html.format.endWithNewline": true,
-    "html.format.wrapLineLength": 140,
-
-    // TypeScript
-    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
-    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
-    "typescript.format.insertSpaceAfterTypeAssertion": true,
-    "typescript.preferences.quoteStyle": "single",
-    "typescript.preferences.importModuleSpecifier": "relative",
-
-    // JavaScript
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-    "javascript.preferences.quoteStyle": "single",
-    "javascript.preferences.importModuleSpecifier": "relative",
-
-    // TSlint
-    "tslint.autoFixOnSave": true,
-    "tslint.alwaysShowStatus": true,
-    "tslint.jsEnable": true,
-
-    // TODO highlight
-    "todohighlight.isCaseSensitive": false,
-
-    // TODO tree
-    "todo-tree.expanded": true,
-    "todo-tree.flat": true,
-
-    // Document This
-    "docthis.includeMemberOfOnClassMembers": false,
-    "docthis.includeMemberOfOnInterfaceMembers": false,
-    "docthis.includeTypes": false,
-
-    // Git Lens
-    "gitlens.keymap": "alternate",
-    "gitlens.advanced.messages": {
-      "suppressCommitHasNoPreviousCommitWarning": false,
-      "suppressCommitNotFoundWarning": false,
-      "suppressFileNotUnderSourceControlWarning": false,
-      "suppressGitVersionWarning": false,
-      "suppressLineUncommittedWarning": false,
-      "suppressNoRepositoryWarning": false,
-      "suppressResultsExplorerNotice": false,
-      "suppressShowKeyBindingsNotice": true
-    },
-    "gitlens.historyExplorer.enabled": true
-
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+  "bracket-pair-colorizer-2.showVerticalScopeLine": false,
+  "docthis.includeMemberOfOnClassMembers": false,
+  "docthis.includeMemberOfOnInterfaceMembers": false,
+  "docthis.includeTypes": false,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 19,
+  "editor.minimap.maxColumn": 140,
+  "editor.renderIndentGuides": false,
+  "editor.rulers": [ 140 ],
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 0,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.enableCommitSigning": true,
+  "html.format.endWithNewline": true,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapLineLength": 140,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "javascript.implicitProjectConfig.checkJs": true,
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.quoteStyle": "single",
+  "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.scrollback": 10000,
+  "todo-tree.flat": true,
+  "todo-tree.statusBar": "total",
+  "todohighlight.isCaseSensitive": false,
+  "tslint.alwaysShowStatus": true,
+  "tslint.autoFixOnSave": true,
+  "tslint.jsEnable": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "typescript.locale": "en",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.quoteStyle": "single",
+  "window.newWindowDimensions": "maximized",
+  "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+  "workbench.commandPalette.history": 1000,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.tips.enabled": false
 }
 ```
 
 <br>
 
-### Keybindings
+### Keyboard Shortcuts
 
-The following are my user keybindings:
+The following are my keyboard shortcuts:
 
 ``` javascript
 [
