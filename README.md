@@ -274,7 +274,7 @@ After installing **[GNU (for Windows)](https://gnupg.org/download/)**, continue 
 ``` conf
 user.signingkey=<KEY>
 commit.gpgsign=true
-gpg.program=C:/Program Files (x86)/GNU/GnuPG/gpg2.exe
+gpg.program=C:\Program Files (x86)\GnuPG\bin\gpg.exe
 ```
 
 <br><br><br>
