@@ -269,7 +269,7 @@ alias.clone-unsecure=!git -c http.sslVerify=false clone
 
 When working on GitHub, I usually set up **[Commit Signing via GPG](https://help.github.com/articles/signing-commits-with-gpg/)**.
 
-After installing [GNU (for Windows)](https://gnupg.org/download/), continue [generating a new GPG key and make it available to GitHub](https://help.github.com/articles/generating-a-new-gpg-key/). Then, use the following coniguration for Git:
+After installing **[GNU (for Windows)](https://gnupg.org/download/)**, continue **[generating a new GPG key and make it available to GitHub](https://help.github.com/articles/generating-a-new-gpg-key/)**. Then, use the following coniguration for Git:
 
 ``` conf
 user.signingkey=<KEY>
@@ -293,7 +293,22 @@ Installed via **[nvm for Windows](https://github.com/coreybutler/nvm-windows)**.
 
 <br><br><br>
 
-## ConEmu
+## [ConEmu](https://conemu.github.io/en/Downloads.html)
+
+Configuration:
+
+- Color Scheme: "Twilight"
+
+<br>
+
+### [PoshGit](https://github.com/dahlbyk/posh-git) for PowerShell
+
+For inline Git status information within the PowerShell. Instructions:
+
+- Change the execution policy: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm`
+- Update `PowerShellGet` to its latest version: `Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber`
+- Install PoshGit: `PowerShellGet\Install-Module posh-git -Scope CurrentUser -AllowPrerelease -Force`
+- Add PoshGit to PowerShell profile: `Add-PoshGitToProfile -AllHosts`
 
 TODO: Download link, Theme, Settings, PoshGit
 
