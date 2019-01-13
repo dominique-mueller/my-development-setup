@@ -267,8 +267,9 @@ alias.clone-unsecure=!git -c http.sslVerify=false clone
 
 ### Commit Signing with GPG
 
-When working on GitHub, I usually set up **[Commit Signing via GPG](https://help.github.com/articles/signing-commits-with-gpg/)**. The
-following coniguration is needed:
+When working on GitHub, I usually set up **[Commit Signing via GPG](https://help.github.com/articles/signing-commits-with-gpg/)**.
+
+After installing [GNU (for Windows)](https://gnupg.org/download/), continue [generating a new GPG key and make it available to GitHub](https://help.github.com/articles/generating-a-new-gpg-key/). Then, use the following coniguration for Git:
 
 ``` conf
 user.signingkey=<KEY>
