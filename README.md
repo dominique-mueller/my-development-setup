@@ -226,7 +226,7 @@ Version Control Software, accessibly via command line.
 ``` conf
 user.name=<NAME>
 user.email=<EMAIL>
-push.default=simple # Simplify pushing to remote
+push.default=current # Simplify pushing new branches to remote
 push.followtags=true # Always push tags along
 status.showUntrackedFiles=all # Show all files when changing directories
 credential.helper=wincred # Remember credentials
