@@ -10,60 +10,83 @@ My personal development setup, for Frontend Development on Windows.
 
 ## Table of Contents
 
-- **[Visual Studio Code](#visual-studio-code)**<br>Theme, Extensions, Settings, Keybinding
+- **[Visual Studio Code](#visual-studio-code)**<br>Setup, Theme, Extensions, Settings, Key Bindings
 - **[Google Chrome](#google-chrome)**<br>Extensions
-- **[Git](#git)**<br>Settings, Commit Signing
-- **[NodeJS](#nodejs)**<br>Global Packages
-- **[ConEmu](#conemu)**<br>TODO
+- **[Git](#git)**<br>Settings, Alias, Commit Signing
+- **[NodeJS](#nodejs)**<br>nvm, npm, global packages
+- **[ConEmu](#conemu)**<br>Settings, PoshGit
 
 <br><br><br>
 
 ## [Visual Studio Code](https://code.visualstudio.com/)
 
-Lightweigh Code Editor, focused on web development. Usually I prefer the Insiders Build.
+Lightweight Code Editor, focused on and optimized for web development. If you want to participate in early tests, choose the "Insiders Build" variant.
+
+<br>
+
+### Installation
+
+Download the latest version **[right here](https://code.visualstudio.com/#alt-downloads)**, preferrably
+- the **64 Bit** version *(for the best performance)*
+- the **User Installer** *(for automatic updates)*
 
 <br>
 
 ### Theme
 
-My favourite theme is **[Oceanic Next](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext)**!
+My favourite theme is **[Oceanic Next](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext)**! It's simple, it's dark - it's fantastic!
 
 <br>
 
 ### Extensions
 
-The following are my extensions, the "must haves" are marked by a heart:
+The following are my must-have extensions for all kinds of web development.
 
-|         | Extension                                                                                                                           | Description          |
-| :-----: | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| :heart: | **[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)**                             | Add autocomplete to Angular templates |
-| :heart: | **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                            | Automatically renames paired HTML tags |
-| :heart: | **[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**                               | Colorizes comments based on type |
-| :heart: | **[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)**              | Colorizes matching brackets |
-|         | **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                             | Shows code complexity |
-| :heart: | **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                         | Debug Chrome within Visual Studio Code |
-| :heart: | **[Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)**                                            | Generate JSDoc comments |
-| :heart: | **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**                                   | Apply settings defined in .editconfig file |
-| :heart: | **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**                                                  | Enhanced Git support |
-| :heart: | **[Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)**                                                   | Adds indentation guide lines |
-|         | **[Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)**                        | Adds image preview next to lines |
-| :heart: | **[IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)**                       | AI-assisted autocompletion |
-| :heart: | **[JSON5 syntax](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5)**                                         | Adds JSON5 file support |
-| :heart: | **[Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)**   | Markdown Preview Github Theme |
-|         | **[Markdown Preview with BitBucket Styles](https://marketplace.visualstudio.com/items?itemName=hbrok.markdown-preview-bitbucket)**  | Markdown Preview Github Theme |
-| :heart: | **[Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)**                                   | Open HTML in browser (default vs. select) |
-|         | **[Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)**                                         | Compare things |
-|         | **[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)**                                                    | Captures beautiful code screenshots |
-| :heart: | **[Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)**                              | Manages multiple projects |
-| :heart: | **[Sass](https://marketplace.visualstudio.com/items?itemName=robinbentley.sass-indented)**                                          | SASS file support |
-| :heart: | **[Sass Lint](https://marketplace.visualstudio.com/items?itemName=glen-84.sass-lint)**                                              | SASS file linter |
-| :heart: | **[Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)**                                             | Quickly sort lines |
-| :heart: | **[SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)**                                        | SVG file support |
-| :heart: | **[TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)**                               | Highlight TODOs, FIXMEs and similar |
-| :heart: | **[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-treet)**                                         | Adds a TODO panel listing all TODO comments |
-| :heart: | **[Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)**                               | Highlight and remove trailing spaces |
-| :heart: | **[TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)**                                                        | TS file linter |
-| :heart: | **[Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)**                                | Show dependency version infos in package.json |
+| Extension                                                                                                                 | Description                                                       |
+| ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                  | Automatically rename HTML tag pairs                               |
+| **[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**                     | Colorize comments based on type (e.g. info, alert, question, ...) |
+| **[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)**      | Colorize matching brackets                                        |
+| **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                   | Analyze and show code complexity                                  |
+| **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**               | Debug Chrome within Visual Studio Code                            |
+| **[Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)**                                  | Generate JSDoc comments                                           |
+| **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**                         | Apply settings defined in .editconfig file                        |
+| **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**                                        | Enhanced Git support                                              |
+| **[Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)**                                         | Add indentation guide lines                                       |
+| **[Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)**              | Add small image preview next to lines                             |
+| **[IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)**             | AI-assisted autocompletion                                        |
+| **[JSON5 syntax](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5)**                               | Add JSON5 file support                                            |
+| **[Markdown Preview Github](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)** | Markdown Preview in the Github Theme                              |
+| **[Markdown Preview BitBucket](https://marketplace.visualstudio.com/items?itemName=hbrok.markdown-preview-bitbucket)**    | Markdown Preview in the BitBucket Theme                           |
+| **[Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)**                         | Open HTML in browser(s)                                           |
+| **[Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)**                               | Compare code blocks                                               |
+| **[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)**                                          | Capture beautiful code screenshots                                |
+| **[Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)**                    | Manage multiple projects                                          |
+| **[Sass](https://marketplace.visualstudio.com/items?itemName=robinbentley.sass-indented)**                                | SASS file support                                                 |
+| **[Sass Lint](https://marketplace.visualstudio.com/items?itemName=glen-84.sass-lint)**                                    | SASS linter                                                       |
+| **[Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)**                                   | Quickly sort lines in different ways / by different criteria      |
+| **[SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)**                              | Add SVG file support                                              |
+| **[TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)**                     | Highlight TODOs, FIXMEs and similar                               |
+| **[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-treet)**                               | Add a TODO panel listing all TODO comments                        |
+| **[Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)**                     | Highlight and auto-remove trailing spaces                         |
+| **[TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)**                                              | TypeScript linter and fixer                                       |
+| **[Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)**                      | Show dependency version infos in package.json                     |
+
+<br>
+
+### Extensions (Angular)
+
+The following are extensions which improve the workflow when working on **[Angular](https://angular.io/)** apps.
+
+| Extension                                                                                               | Description                                          |
+| ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| **[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)** | Improve editing experience in Angular HTML templates |
+
+<br>
+
+### Extensions (React)
+
+TODO
 
 <br>
 
@@ -153,30 +176,42 @@ Primary browser for development purposes.
 
 ### Extensions
 
-The following are my extensions, the "must haves" are marked by a heart:
+The following are my must-have extensions for Frontend development in general.
 
-|         | Extension                                                                                                                         | Description          |
-| :-----: | --------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-|         | **[Augury](https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd)**                                                                                       | Adds tools for debugging and profiling Angular applications |
-|         | **[Awesome Autocomplete for GitHub](https://chrome.google.com/webstore/detail/awesome-autocomplete-for/djkfdjpoelphhdclfjhnffmnlnoknfnd?utm_source=chrome-app-launcher-info-dialog)** | Enhances the GitHub search autocomplete |
-|         | **[aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)**                                                                                             | Adds tools for accessibility testing |
-|         | **[Baseliner](https://chrome.google.com/webstore/detail/baseliner/agoopbiflnjadjfbhimhlmcbgmdgldld)**                                                                                 | Show lines for vertical rhythm |
-|         | **[ChromeLens](https://chrome.google.com/webstore/detail/chromelens/idikgljglpfilbhaboonnpnnincjhjkd/related)**                                                                       | Simulates visual impairments |
-| :heart: | **[ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?utm_source=chrome-app-launcher-info-dialog)**                                    | Color Picker |
-|         | **[Contributors on GitHub](https://chrome.google.com/webstore/detail/contributors-on-github/cjbacdldhllelehomkmlniifaojgaeph?utm_source=chrome-app-launcher-info-dialog)**            | Shows contribution details on GitHub PRs |
-|         | **[Dimensions](https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?utm_source=chrome-app-launcher-info-dialog)**                                    | Measure dimensions of elements on hover |
-|         | **[Fireshot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?utm_source=chrome-app-launcher-info-dialog)**                        | Makes full-sized screenshots |
-| :heart: | **[Mindful](https://chrome.google.com/webstore/detail/mindful-beta/cieekmjjdkckhpidgaffphlaljdfhhab?utm_source=chrome-app-launcher-info-dialog)**                                     | Shows a beautiful notepad as the new tab page |
-|         | **[JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?utm_source=chrome-app-launcher-info-dialog)**                            | Formats JSON files opened in the browser |
-|         | **[Pesticide](https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh?utm_source=chrome-app-launcher-info-dialog)**                           | Shows elements outlines |
-|         | **[GitHub Hovercard](https://chrome.google.com/webstore/detail/github-hovercard/mmoahbbnojgkclgceahhakhnccimnplk?utm_source=chrome-app-launcher-info-dialog)**                        | Shows link information on hover |
-|         | **[GitHub Repository Size](https://chrome.google.com/webstore/detail/github-repository-size/apnjnioapinblneaedefcnopcjepgkci)**                                                       | Shows file sizes in repository view |
-|         | **[GitHub Markdown Menu](https://chrome.google.com/webstore/detail/github-markdown-menu/jekgocfoijmbgcjejohdgmojaejofdpo)**                                                           | Shows a markdown table of contents as a dropdown menu |
-|         | **[Tab Size on GitHub](https://chrome.google.com/webstore/detail/tab-size-on-github/ofjbgncegkdemndciafljngjbdpfmbkn?utm_source=chrome-app-launcher-info-dialog)**                    | Decreases GitHub indentation wideness |
-| :heart: | **[Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?utm_source=chrome-app-launcher-info-dialog)**                                    | Detects technologies used by a website |
-|         | **[WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)**                                                           | Adds tools for accessibility testing |
-| :heart: | **[Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?utm_source=chrome-app-launcher-info-dialog)**                              | Toolbar with various development helpers |
-|         | **[WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?utm_source=chrome-app-launcher-info-dialog)**                                        | Shows used font family on hover |
+| Extension                                                                                                                                                                  | Description                                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **[aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)**                                                                                  | Adds tools for accessibility testing |
+| **[Baseliner](https://chrome.google.com/webstore/detail/baseliner/agoopbiflnjadjfbhimhlmcbgmdgldld)**                                                                      | Show lines for vertical rhythm |
+| **[ChromeLens](https://chrome.google.com/webstore/detail/chromelens/idikgljglpfilbhaboonnpnnincjhjkd/related)**                                                            | Simulates visual impairments |
+| **[ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?utm_source=chrome-app-launcher-info-dialog)**                         | Color Picker |
+| **[Contributors on GitHub](https://chrome.google.com/webstore/detail/contributors-on-github/cjbacdldhllelehomkmlniifaojgaeph?utm_source=chrome-app-launcher-info-dialog)** | Shows contribution details on GitHub PRs |
+| **[Dimensions](https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?utm_source=chrome-app-launcher-info-dialog)**                         | Measure dimensions of elements on hover |
+| **[Fireshot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?utm_source=chrome-app-launcher-info-dialog)**             | Makes full-sized screenshots |
+| **[Mindful](https://chrome.google.com/webstore/detail/mindful-beta/cieekmjjdkckhpidgaffphlaljdfhhab?utm_source=chrome-app-launcher-info-dialog)**                          | Shows a beautiful notepad as the new tab page |
+| **[JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?utm_source=chrome-app-launcher-info-dialog)**                 | Formats JSON files opened in the browser |
+| **[Pesticide](https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh?utm_source=chrome-app-launcher-info-dialog)**                | Shows elements outlines |
+| **[GitHub Markdown Menu](https://chrome.google.com/webstore/detail/github-markdown-menu/jekgocfoijmbgcjejohdgmojaejofdpo)**                                                | Shows a markdown table of contents as a dropdown menu |
+| **[Tab Size on GitHub](https://chrome.google.com/webstore/detail/tab-size-on-github/ofjbgncegkdemndciafljngjbdpfmbkn?utm_source=chrome-app-launcher-info-dialog)**         | Decreases GitHub indentation wideness |
+| **[Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?utm_source=chrome-app-launcher-info-dialog)**                         | Detects technologies used by a website |
+| **[WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)**                                                | Adds tools for accessibility testing |
+| **[Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?utm_source=chrome-app-launcher-info-dialog)**                   | Toolbar with various development helpers |
+| **[WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?utm_source=chrome-app-launcher-info-dialog)**                             | Shows used font family on hover |
+
+<br>
+
+### Extensions (Angular)
+
+The following are my extensions specifically for Angular development.
+
+| Extension                                                                                       | Description                                                 |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **[Augury](https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd)** | Adds tools for debugging and profiling Angular applications |
+
+<br>
+
+### Extensions (React)
+
+TODO
 
 <br><br><br>
 
@@ -241,36 +276,46 @@ gpg.program=C:\Program Files (x86)\GnuPG\bin\gpg.exe
 
 ## [NodeJS](https://nodejs.org/)
 
-Installed via **[nvm for Windows](https://github.com/coreybutler/nvm-windows)**.
+Installed via **[nvm for Windows](https://github.com/coreybutler/nvm-windows)**, preferrably
+- using the "nvm-setup" variant (cause why not?)
+- placing the installation to `C:\nvm`
+- choosing `C:\nodejs` as the NodeJS versions root folder
 
-- Also see the **[script for upgrading npm](https://gist.github.com/johnmcase/d31b799b9030327091a0e74880e4c530)** (solving *[nvm issue #300](https://github.com/coreybutler/nvm-windows/issues/300)*)
+<br>
+
+### npm
+
+Upgrading npm itself is sometimes tricky, especially on Windows. Thus, use **[this script for upgrading npm](https://gist.github.com/johnmcase/d31b799b9030327091a0e74880e4c530)** (solving *[nvm issue #300](https://github.com/coreybutler/nvm-windows/issues/300)*).
 
 <br>
 
 ### Global packages
 
-- [`ts-node`](https://github.com/TypeStrong/ts-node) quickly compiles and runs TypeScript files
+- [`ts-node`](https://github.com/TypeStrong/ts-node) quickly compiles and runs TypeScript files, even outside of projects.
 
 <br><br><br>
 
 ## [ConEmu](https://conemu.github.io/en/Downloads.html)
 
-Configuration:
+ConEmu is a terminal application which allowes for running multiple (even different) command lines tools within a tabbed window, while also enabling customizations and enhanced configuration.
+
+<br>
+
+### Settings
 
 - Color Scheme: "Twilight"
+- Default Task: "Powershell (Admin)", usually with a custom start directory (defined in parameters, e.g. `/dir "E:\Projects"`)
 
 <br>
 
 ### [PoshGit](https://github.com/dahlbyk/posh-git) for PowerShell
 
-For inline Git status information within the PowerShell. Instructions:
+Displays additional Git status information (e.g. current branch, changes) within the PowerShell at the beginning of lines. Set it up by running the following commands within the PowerShell:
 
-- Change the execution policy: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm`
-- Update `PowerShellGet` to its latest version: `Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber`
-- Install PoshGit: `PowerShellGet\Install-Module posh-git -Scope CurrentUser -AllowPrerelease -Force`
-- Add PoshGit to PowerShell profile: `Add-PoshGitToProfile -AllHosts`
-
-TODO: Download link, Theme, Settings, PoshGit
+1. Change the execution policy: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm`
+2. Update `PowerShellGet` to its latest version: `Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber`
+3. Install PoshGit: `PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force`
+4. Add PoshGit to PowerShell profile: `Add-PoshGitToProfile -AllHosts`
 
 <br><br><br>
 
