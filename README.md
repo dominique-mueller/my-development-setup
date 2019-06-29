@@ -281,11 +281,20 @@ Installed via **[nvm for Windows](https://github.com/coreybutler/nvm-windows)**,
 - placing the installation to `C:\nvm`
 - choosing `C:\nodejs` as the NodeJS versions root folder
 
+Once nvm is installed, open a new console and setup the preferred NodeJS version:
+
+``` bash
+nvm install <VERSION>   # The version can also be "latest"
+nvm use <VERSION>
+```
+
 <br>
 
 ### npm
 
-Upgrading npm itself is sometimes tricky, especially on Windows. Thus, use **[this script for upgrading npm](https://gist.github.com/johnmcase/d31b799b9030327091a0e74880e4c530)** (solving *[nvm issue #300](https://github.com/coreybutler/nvm-windows/issues/300)*).
+Upgrading npm itself is sometimes tricky, especially on Windows. Use **[this script for upgrading npm](https://gist.github.com/johnmcase/d31b799b9030327091a0e74880e4c530)**, adapt paths if necessary.
+
+> Note: This script solves the **[nvm issue #300](https://github.com/coreybutler/nvm-windows/issues/300)** which is probably the reason for this issue.
 
 <br>
 
@@ -303,8 +312,11 @@ ConEmu is a terminal application which allowes for running multiple (even differ
 
 ### Settings
 
-- Color Scheme: "Twilight"
-- Default Task: "Powershell (Admin)", usually with a custom start directory (defined in parameters, e.g. `/dir "E:\Projects"`)
+The following are my personal settings:
+
+- **Color theme: Twilight**<br>At "General", select the theme below "Choose color scheme"
+- **Increased console buffer**<br>At "General & Size & Pos" - "Console buffer height", activate "Long console output" and enter the biggest value possible (at the moment `32766`)
+- **Default Task: PowerShell (Admin), with custom start directory**<br>At "Startup / Tasks", create a new task (e.g. named "Favourites::Development"). Activate "Default ask for new console", "Default shell", and "Taskbar jump lists". Define the default start directory within the task parameters, e.g. `/dir "C:\Projects"`. Use the command `powershell.exe -new_console:a`.
 
 <br>
 
