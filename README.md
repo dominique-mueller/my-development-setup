@@ -11,6 +11,7 @@ My personal development setup, for Frontend Development on Windows.
 ## Table of Contents
 
 - **[Visual Studio Code](#visual-studio-code)**<br>Setup, Theme, Extensions, Settings, Key Bindings
+- **[Browser](#browser)**<br>List of browsers
 - **[Google Chrome](#google-chrome)**<br>Extensions
 - **[Git](#git)**<br>Settings, Alias, Commit Signing
 - **[NodeJS](#nodejs)**<br>nvm, npm, global packages
@@ -165,6 +166,17 @@ The following are my keyboard shortcuts:
   }
 ]
 ```
+
+<br><br><br>
+
+## Browsers
+
+The following is a list of Browser I usually install for testing purposes:
+
+- **[Google Chrome](https://www.google.de/chrome/index.html)** as the primary browser
+- **[Mozilla Firefox](https://www.mozilla.org/de/firefox/new/)** for testing purposes
+- **[Microsoft Edge (Chromium)](https://www.microsoftedgeinsider.com/en-us/)** for testing purposes
+- **[Opera](https://www.opera.com/)** for testing purposes
 
 <br><br><br>
 
