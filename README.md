@@ -342,6 +342,7 @@ The following is a list of further Software I usually get for development and te
   - **[Opera](https://www.opera.com/)**
 - **[Postman](https://www.getpostman.com/)** for API development and testing
 - **[FileZilla](https://filezilla-project.org/)** as a simple FTP Client
+- **[Notepad++](https://notepad-plus-plus.org/download/v7.7.1.html)** as a universal file editor
 
 <br><br><br>
 
