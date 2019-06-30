@@ -11,11 +11,11 @@ My personal development setup, for Frontend Development on Windows.
 ## Table of Contents
 
 - **[Visual Studio Code](#visual-studio-code)**<br>Setup, Theme, Extensions, Settings, Key Bindings
-- **[Browser](#browser)**<br>List of browsers
 - **[Google Chrome](#google-chrome)**<br>Extensions
 - **[Git](#git)**<br>Settings, Alias, Commit Signing
 - **[NodeJS](#nodejs)**<br>nvm, npm, global packages
 - **[ConEmu](#conemu)**<br>Settings, PoshGit
+- **[Other Software](#other-software)**<br>Browsers, FTP Client, ...
 
 <br><br><br>
 
@@ -166,17 +166,6 @@ The following are my keyboard shortcuts:
   }
 ]
 ```
-
-<br><br><br>
-
-## Browsers
-
-The following is a list of Browser I usually install for testing purposes:
-
-- **[Google Chrome](https://www.google.de/chrome/index.html)** as the primary browser
-- **[Mozilla Firefox](https://www.mozilla.org/de/firefox/new/)** for testing purposes
-- **[Microsoft Edge (Chromium)](https://www.microsoftedgeinsider.com/en-us/)** for testing purposes
-- **[Opera](https://www.opera.com/)** for testing purposes
 
 <br><br><br>
 
@@ -340,6 +329,19 @@ Displays additional Git status information (e.g. current branch, changes) within
 2. Update `PowerShellGet` to its latest version: `Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber`
 3. Install PoshGit: `PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force`
 4. Add PoshGit to PowerShell profile: `Add-PoshGitToProfile -AllHosts`
+
+<br><br><br>
+
+## Other Software
+
+The following is a list of further Software I usually get for development and testing purposes.
+
+- **[Google Chrome](https://www.google.de/chrome/index.html)** as the primary browser, but then also for testing purposes:
+  - **[Mozilla Firefox](https://www.mozilla.org/de/firefox/new/)**
+  - **[Microsoft Edge](https://www.microsoftedgeinsider.com/en-us/)**
+  - **[Opera](https://www.opera.com/)**
+- **[Postman](https://www.getpostman.com/)** for API development and testing
+- **[FileZilla](https://filezilla-project.org/)** as a simple FTP Client
 
 <br><br><br>
 
