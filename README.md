@@ -343,6 +343,7 @@ The following is a list of further Software I usually get for development and te
 - **[Postman](https://www.getpostman.com/)** for API development and testing
 - **[FileZilla](https://filezilla-project.org/)** as a simple FTP Client
 - **[Notepad++](https://notepad-plus-plus.org/download/v7.7.1.html)** as a universal file editor
+- **[devhub](https://github.com/devhubapp/devhub)** as a GitHub notifications manager and activity watcher
 
 <br><br><br>
 
