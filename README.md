@@ -306,7 +306,7 @@ Upgrading npm itself is sometimes tricky, especially on Windows. Use **[this scr
 
 ### Global packages
 
-- [`ts-node`](https://github.com/TypeStrong/ts-node) quickly compiles and runs TypeScript files, even outside of projects.
+- [`ts-node`](https://github.com/TypeStrong/ts-node) quickly compiles and runs TypeScript files, even outside of projects. Install together with `typescript`.
 
 <br><br><br>
 
