@@ -372,6 +372,8 @@ The following is a list of further Software I usually get for development and te
 - **[ScreenToGif](https://www.screentogif.com/)** as a GIF screen recorder
 - **[Just Color Picker](https://annystudio.com/software/colorpicker/)** as a global color picker
 
+<br>
+
 ### Additional
 
 - **[devhub](https://github.com/devhubapp/devhub)** as a GitHub notifications manager and activity watcher
