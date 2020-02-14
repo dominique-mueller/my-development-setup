@@ -28,8 +28,9 @@ Lightweight Code Editor, focused on and optimized for web development. If you wa
 ### Installation
 
 Download the latest version **[right here](https://code.visualstudio.com/#alt-downloads)**, preferrably
-- the **64 Bit** version *(for the best performance)*
-- the **User Installer** *(for automatic updates)*
+
+- the **64 Bit** version _(for the best performance)_
+- the **User Installer** _(for automatic updates)_
 
 <br>
 
@@ -95,7 +96,7 @@ TODO
 
 The following are my settings (includes settings for extensions):
 
-``` json
+```json
 {
   "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
   "bracket-pair-colorizer-2.showVerticalScopeLine": false,
@@ -106,7 +107,7 @@ The following are my settings (includes settings for extensions):
   "editor.lineHeight": 19,
   "editor.minimap.maxColumn": 140,
   "editor.renderIndentGuides": false,
-  "editor.rulers": [ 140 ],
+  "editor.rulers": [140],
   "editor.tabSize": 2,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
@@ -153,18 +154,18 @@ The following are my settings (includes settings for extensions):
 
 The following are my keyboard shortcuts:
 
-``` javascript
+```javascript
 [
   {
-    "key": "ctrl+shift+space",
-    "command": "editor.action.commentLine",
-    "when": "editorTextFocus && !editorReadonly"
+    key: "ctrl+shift+space",
+    command: "editor.action.commentLine",
+    when: "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+shift+alt+f4",
-    "command": "workbench.action.reloadWindow"
+    key: "ctrl+shift+alt+f4",
+    command: "workbench.action.reloadWindow"
   }
-]
+];
 ```
 
 <br><br><br>
@@ -229,7 +230,7 @@ Version Control Software, accessibly via command line.
 
 ### Settings
 
-``` conf
+```conf
 user.name=<NAME>
 user.email=<EMAIL>
 push.default=current # Simplify pushing new branches to remote
@@ -248,19 +249,19 @@ Git aliases, for common actions:
 
 #### Set upstream of current banch
 
-``` conf
+```conf
 alias.set-upstream=!git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
 ```
 
 #### Revert last commit (keeps the changes)
 
-``` conf
+```conf
 alias.pop=!git reset HEAD^
 ```
 
 #### Clone without SSL certification verification
 
-``` conf
+```conf
 alias.clone-unsecure=!git -c http.sslVerify=false clone
 ```
 
@@ -272,7 +273,7 @@ When working on GitHub, I usually set up **[Commit Signing via GPG](https://help
 
 After installing **[GNU (for Windows)](https://gnupg.org/download/)**, continue **[generating a new GPG key and make it available to GitHub](https://help.github.com/articles/generating-a-new-gpg-key/)**. Then, use the following coniguration for Git:
 
-``` conf
+```conf
 user.signingkey=<KEY>
 commit.gpgsign=true
 gpg.program=C:\Program Files (x86)\GnuPG\bin\gpg.exe
@@ -283,13 +284,14 @@ gpg.program=C:\Program Files (x86)\GnuPG\bin\gpg.exe
 ## [NodeJS](https://nodejs.org/)
 
 Installed via **[nvm for Windows](https://github.com/coreybutler/nvm-windows)**, preferrably
+
 - using the "nvm-setup" variant (cause why not?)
 - placing the installation to `C:\nvm`
 - choosing `C:\nodejs` as the NodeJS versions root folder
 
 Once nvm is installed, open a new console and setup the preferred NodeJS version:
 
-``` bash
+```bash
 nvm install <VERSION>   # The version can also be "latest"
 nvm use <VERSION>
 ```
@@ -343,12 +345,14 @@ The following is a list of further Software I usually get for development and te
 
 - **[Google Chrome](https://www.google.de/chrome/index.html)** as the primary browser, but then also for testing purposes:
   - **[Mozilla Firefox](https://www.mozilla.org/de/firefox/new/)**
-  - **[Microsoft Edge](https://www.microsoftedgeinsider.com/en-us/)**
   - **[Opera](https://www.opera.com/)**
+  - **[Microsoft Edge](https://www.microsoft.com/en-us/edge)**
 - **[Postman](https://www.getpostman.com/)** for API development and testing
+- **[Postwoman](https://postwoman.io/)** for API development and testing
 - **[FileZilla](https://filezilla-project.org/)** as a simple FTP Client
 - **[Notepad++](https://notepad-plus-plus.org/download/v7.7.1.html)** as a universal file editor
 - **[ScreenToGif](https://www.screentogif.com/)** as a GIF screen recorder
+- **[Just Color Picker](https://annystudio.com/software/colorpicker/)** as a global color picker
 - **[devhub](https://github.com/devhubapp/devhub)** as a GitHub notifications manager and activity watcher
 
 <br><br><br>
