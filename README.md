@@ -343,16 +343,36 @@ Displays additional Git status information (e.g. current branch, changes) within
 
 The following is a list of further Software I usually get for development and testing purposes.
 
-- **[Google Chrome](https://www.google.de/chrome/index.html)** as the primary browser, but then also for testing purposes:
-  - **[Mozilla Firefox](https://www.mozilla.org/de/firefox/new/)**
-  - **[Opera](https://www.opera.com/)**
-  - **[Microsoft Edge](https://www.microsoft.com/en-us/edge)**
+<br>
+
+### Browsers
+
+- **[Google Chrome](https://www.google.de/chrome/index.html)** as the primary browser
+- **[Mozilla Firefox](https://www.mozilla.org/de/firefox/new/)** for testing purposes
+- **[Opera](https://www.opera.com/)** for testing purposes
+- **[Microsoft Edge](https://www.microsoft.com/en-us/edge)** for testing purposes
+
+<br>
+
+### Development
+
 - **[Postman](https://www.getpostman.com/)** for API development and testing
 - **[Postwoman](https://postwoman.io/)** for API development and testing
 - **[FileZilla](https://filezilla-project.org/)** as a simple FTP Client
+- **[MiniKube](https://github.com/kubernetes/minikube)** for running clusters locally
+- **[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)** for managing Kubernetes clusters
+- **[Kube Forwarder](https://www.electronjs.org/apps/kube-forwarder)** for managing Kubernetes port-forwardings with a UI
 - **[Notepad++](https://notepad-plus-plus.org/download/v7.7.1.html)** as a universal file editor
+
+<br>
+
+### Design
+
 - **[ScreenToGif](https://www.screentogif.com/)** as a GIF screen recorder
 - **[Just Color Picker](https://annystudio.com/software/colorpicker/)** as a global color picker
+
+### Additional
+
 - **[devhub](https://github.com/devhubapp/devhub)** as a GitHub notifications manager and activity watcher
 
 <br><br><br>
