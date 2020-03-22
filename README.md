@@ -362,9 +362,10 @@ The following is a list of further Software I usually get for development and te
 
 ### Development
 
-- **[Postman](https://www.getpostman.com/)** for HTTP API development and testing
-- **[Postwoman](https://postwoman.io/)** for HTTP / WebSocket & SSE API development and testing
-- **[MQTT Explorer](http://mqtt-explorer.com/)** for MQTT development and testing
+- **[Postman](https://www.getpostman.com/)** for HTTP API testing
+- **[Postwoman](https://postwoman.io/)** for HTTP / WebSocket & SSE API testing
+- **[Firecamp](https://firecamp.io/)** for HTTP / GraphQL / WebSocket API testing
+- **[MQTT Explorer](http://mqtt-explorer.com/)** for MQTT testing
 - **[FileZilla](https://filezilla-project.org/)** as a simple FTP Client
 - **[MiniKube](https://github.com/kubernetes/minikube)** for running clusters locally
 - **[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)** for managing Kubernetes clusters
