@@ -112,7 +112,6 @@ The following are my settings (includes settings for extensions):
   "editor.fontSize": 13,
   "editor.lineHeight": 19,
   "editor.minimap.maxColumn": 140,
-  "editor.renderIndentGuides": false,
   "editor.rulers": [140],
   "editor.tabSize": 2,
   "explorer.confirmDragAndDrop": false,
@@ -131,15 +130,9 @@ The following are my settings (includes settings for extensions):
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "javascript.preferences.importModuleSpecifier": "relative",
   "javascript.preferences.quoteStyle": "single",
-  "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.scrollback": 10000,
-  "todo-tree.flat": true,
-  "todo-tree.statusBar": "total",
-  "todohighlight.isCaseSensitive": false,
-  "tslint.alwaysShowStatus": true,
-  "tslint.autoFixOnSave": true,
-  "tslint.jsEnable": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
   "typescript.locale": "en",
@@ -149,8 +142,40 @@ The following are my settings (includes settings for extensions):
   "workbench.colorTheme": "Oceanic Next (dimmed bg)",
   "workbench.commandPalette.history": 1000,
   "workbench.editor.closeOnFileDelete": true,
-  "workbench.statusBar.feedback.visible": false,
-  "workbench.tips.enabled": false
+  "workbench.tips.enabled": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "gitlens.blame.toggleMode": "window",
+  "gitlens.currentLine.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "todo-tree.tree.showScanModeButton": false,
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  "editor.highlightActiveIndentGuide": false,
+  "editor.renderIndentGuides": false,
+  "breadcrumbs.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false
 }
 ```
 
