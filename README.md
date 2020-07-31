@@ -23,6 +23,9 @@ My personal development setup, for Frontend Development on Windows.
 
 Lightweight Code Editor, focused on and optimized for web development.
 
+> If I have to look into code that is not Frontend, I usually install and use
+> **[IntelliJ](https://www.jetbrains.com/de-de/idea/download/#section=windows)** for that.
+
 <br>
 
 ### Installation
@@ -354,31 +357,39 @@ The following is a list of further Software I usually get for development and te
 
 ### Browsers
 
-- **[Google Chrome](https://www.google.de/chrome/index.html)** as the primary browser
-- **[Mozilla Firefox](https://www.mozilla.org/de/firefox/new/)** for testing purposes
-- **[Opera](https://www.opera.com/)** for testing purposes
-- **[Microsoft Edge](https://www.microsoft.com/en-us/edge)** for testing purposes
-
-<br>
-
-### Development
-
-- **[Postman](https://www.getpostman.com/)** for HTTP API testing
-- **[Postwoman](https://postwoman.io/)** for HTTP / WebSocket & SSE API testing
-- **[Firecamp](https://firecamp.io/)** for HTTP / GraphQL / WebSocket API testing
-- **[MQTT Explorer](http://mqtt-explorer.com/)** for MQTT testing
-- **[FileZilla](https://filezilla-project.org/)** as a simple FTP Client
-- **[MiniKube](https://github.com/kubernetes/minikube)** for running clusters locally
-- **[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)** for managing Kubernetes clusters
-- **[Kube Forwarder](https://www.electronjs.org/apps/kube-forwarder)** for managing Kubernetes port-forwardings with a UI
-- **[Notepad++](https://notepad-plus-plus.org/download/v7.7.1.html)** as a universal file editor
+| Name                                                           | Description                             |
+| -------------------------------------------------------------- | --------------------------------------- |
+| **[Google Chrome](https://www.google.de/chrome/index.html)**   | Primary browser                         |
+| **[Mozilla Firefox](https://www.mozilla.org/de/firefox/new/)** | Additional browser for testing purposes |
+| **[Microsoft Edge](https://www.microsoft.com/en-us/edge)**     | Additional browser for testing purposes |
+| **[Opera](https://www.opera.com/)**                            | Additional browser for testing purposes |
 
 <br>
 
 ### Design
 
-- **[ScreenToGif](https://www.screentogif.com/)** as a GIF screen recorder
-- **[Just Color Picker](https://annystudio.com/software/colorpicker/)** as a global color picker
+| Name                                                                  | Description                              |
+| --------------------------------------------------------------------- | ---------------------------------------- |
+| **[ScreenToGif](https://www.screentogif.com/)**                       | GIF screen recorder (e.g. for docs, PRs) |
+| **[Just Color Picker](https://annystudio.com/software/colorpicker/)** | Global color picker                      |
+
+<br>
+
+### Development Tools
+
+| Name                                                                                       | Description                                       |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------- |
+| **[IntelliJ](https://www.jetbrains.com/de-de/idea/download/#section=windows)**             | IDE (for everything that I do not use VSCode for) |
+| **[Postman](https://www.getpostman.com/)**                                                 | HTTP API testing                                  |
+| **[Postwoman](https://postwoman.io/)**                                                     | HTTP / WebSocket & SSE API testing                |
+| **[Firecamp](https://firecamp.io/)**                                                       | HTTP / GraphQL / WebSocket API testing            |
+| **[MQTT Explorer](http://mqtt-explorer.com/)**                                             | MQTT testing                                      |
+| **[FileZilla](https://filezilla-project.org/)**                                            | Simple FTP Client                                 |
+| **[Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows/)** | Docker container management                       |
+| **[MiniKube](https://github.com/kubernetes/minikube)**                                     | Running Kubernetes clusters locally               |
+| **[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)**                     | Manage Kubernetes clusters                        |
+| **[Kube Forwarder](https://www.electronjs.org/apps/kube-forwarder)**                       | Manage Kubernetes port-forwardings with a UI      |
+| **[Notepad++](https://notepad-plus-plus.org/download/v7.7.1.html)**                        | Universal file editor                             |
 
 <br><br><br>
 
