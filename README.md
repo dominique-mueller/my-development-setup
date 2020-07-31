@@ -21,7 +21,7 @@ My personal development setup, for Frontend Development on Windows.
 
 ## [Visual Studio Code](https://code.visualstudio.com/)
 
-Lightweight Code Editor, focused on and optimized for web development. If you want to participate in early tests, choose the "Insiders Build" variant.
+Lightweight Code Editor, focused on and optimized for web development.
 
 <br>
 
@@ -36,21 +36,33 @@ Download the latest version **[right here](https://code.visualstudio.com/#alt-do
 
 ### Theme
 
-My favourite theme is **[Oceanic Next](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext)**! It's simple, it's dark - it's fantastic!
+My favourite theme is **[Oceanic Next](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext)**! It's simple, it's
+dark - it's fantastic!
+
+<br>
+
+### Font
+
+A custom font? Yes, please! I'm currently a huge fan of Microsoft's **[Cascadia Code](https://github.com/microsoft/cascadia-code)**.
+Download the latest font zip file from the GitHub release page, unzip it and install every font within the "ttf" folder. Don't forget to
+restart Visual Studio Code so that it knows about the font.
 
 <br>
 
 ### Extensions
 
-The following are my must-have extensions for all kinds of web development.
+The following are my must-have extensions for all kinds of web development. Depending on the project I am currently working on, I sometimes
+disable some extensions.
 
 | Extension                                                                                                                    | Description                                                       |
 | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)**                      | Improve editing experience in Angular HTML templates              |
 | **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                     | Automatically rename HTML tag pairs                               |
 | **[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**                        | Colorize comments based on type (e.g. info, alert, question, ...) |
 | **[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)**         | Colorize matching brackets                                        |
 | **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                      | Analyze and show code complexity                                  |
-| **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                  | Debug Chrome within Visual Studio Code                            |
+| **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                  | Debug Chrome from within Visual Studio Code                       |
+| **[Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug)**        | Debug Firefox from within Visual Studio Code                      |
 | **[Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)**                                | Docker file support & tooling                                     |
 | **[Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)**                                     | Generate JSDoc comments                                           |
 | **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**                            | Apply settings defined in .editconfig file                        |
@@ -69,12 +81,12 @@ The following are my must-have extensions for all kinds of web development.
 | **[Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)**                                  | Compare code blocks                                               |
 | **[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)**                                             | Capture beautiful code screenshots                                |
 | **[Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)**                       | Manage multiple projects                                          |
-| **[Sass](https://marketplace.visualstudio.com/items?itemName=robinbentley.sass-indented)**                                   | SASS file support                                                 |
+| **[Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)**                                          | SASS file support                                                 |
 | **[Sass Lint](https://marketplace.visualstudio.com/items?itemName=glen-84.sass-lint)**                                       | SASS linter                                                       |
 | **[Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)**                                      | Quickly sort lines in different ways / by different criteria      |
 | **[SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)**                                 | Add SVG file support                                              |
 | **[TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)**                        | Highlight TODOs, FIXMEs and similar                               |
-| **[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-treet)**                                  | Add a TODO panel listing all TODO comments                        |
+| **[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)**                                   | Add a TODO panel listing all TODO comments                        |
 | **[Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)**                        | Highlight and auto-remove trailing spaces                         |
 | **[Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)**                         | Show dependency version infos in package.json                     |
 | **[Vistual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)** | AI-assisted autocompletion                                        |
@@ -82,43 +94,37 @@ The following are my must-have extensions for all kinds of web development.
 
 <br>
 
-### Extensions (Angular)
-
-The following are extensions which improve the workflow when working on **[Angular](https://angular.io/)** apps.
-
-| Extension                                                                                               | Description                                          |
-| ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| **[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)** | Improve editing experience in Angular HTML templates |
-
-<br>
-
-### Extensions (React)
-
-TODO
-
-<br>
-
 ### Settings
 
-The following are my settings (includes settings for extensions):
+The following are my settings (includes settings for extensions, theme, font, ...):
 
 ```json
 {
   "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
   "bracket-pair-colorizer-2.showVerticalScopeLine": false,
+  "breadcrumbs.enabled": false,
   "docthis.includeMemberOfOnClassMembers": false,
   "docthis.includeMemberOfOnInterfaceMembers": false,
   "docthis.includeTypes": false,
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
   "editor.fontSize": 13,
+  "editor.highlightActiveIndentGuide": false,
   "editor.lineHeight": 19,
   "editor.minimap.maxColumn": 140,
+  "editor.renderIndentGuides": false,
   "editor.rulers": [140],
+  "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
+  "extensions.ignoreRecommendations": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "git.enableCommitSigning": true,
+  "gitlens.blame.toggleMode": "window",
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
   "html.format.endWithNewline": true,
   "html.format.indentHandlebars": true,
   "html.format.indentInnerHtml": true,
@@ -133,49 +139,40 @@ The following are my settings (includes settings for extensions):
   "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  "todo-tree.tree.showScanModeButton": false,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
   "typescript.locale": "en",
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.preferences.quoteStyle": "single",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.newWindowDimensions": "maximized",
   "workbench.colorTheme": "Oceanic Next (dimmed bg)",
   "workbench.commandPalette.history": 1000,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.tips.enabled": false,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "gitlens.blame.toggleMode": "window",
-  "gitlens.currentLine.enabled": false,
-  "[typescriptreact]": {
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[javascript]": {
+  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "todo-tree.tree.showScanModeButton": false,
-  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-  "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
-  "editor.highlightActiveIndentGuide": false,
-  "editor.renderIndentGuides": false,
-  "breadcrumbs.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.enabled": false
+  }
 }
 ```
 
@@ -190,12 +187,12 @@ The following are my keyboard shortcuts:
   {
     key: "ctrl+shift+space",
     command: "editor.action.commentLine",
-    when: "editorTextFocus && !editorReadonly"
+    when: "editorTextFocus && !editorReadonly",
   },
   {
     key: "ctrl+shift+alt+f4",
-    command: "workbench.action.reloadWindow"
-  }
+    command: "workbench.action.reloadWindow",
+  },
 ];
 ```
 
@@ -209,47 +206,30 @@ Primary browser for development purposes.
 
 ### Extensions
 
-The following are my must-have extensions for Frontend development in general.
+The following are my must-have extensions for Frontend development in general. Depending on the project I am currently working on, I
+sometimes disable some extensions.
 
-| Extension                                                                                                                                                                  | Description                                           |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| **[aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)**                                                                                  | Adds tools for accessibility testing                  |
-| **[Baseliner](https://chrome.google.com/webstore/detail/baseliner/agoopbiflnjadjfbhimhlmcbgmdgldld)**                                                                      | Show lines for vertical rhythm                        |
-| **[ChromeLens](https://chrome.google.com/webstore/detail/chromelens/idikgljglpfilbhaboonnpnnincjhjkd/related)**                                                            | Simulates visual impairments                          |
-| **[ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?utm_source=chrome-app-launcher-info-dialog)**                         | Color Picker                                          |
-| **[Contributors on GitHub](https://chrome.google.com/webstore/detail/contributors-on-github/cjbacdldhllelehomkmlniifaojgaeph?utm_source=chrome-app-launcher-info-dialog)** | Shows contribution details on GitHub PRs              |
-| **[Dimensions](https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?utm_source=chrome-app-launcher-info-dialog)**                         | Measure dimensions of elements on hover               |
-| **[Feature Queries Manager](https://chrome.google.com/webstore/detail/feature-queries-manager/fbhgnconlfgmienbmpbeeenffagggonp)**                                          | Manage CSS feature queries                            |
-| **[Fireshot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?utm_source=chrome-app-launcher-info-dialog)**             | Makes full-sized screenshots                          |
-| **[Mindful](https://chrome.google.com/webstore/detail/mindful-beta/cieekmjjdkckhpidgaffphlaljdfhhab?utm_source=chrome-app-launcher-info-dialog)**                          | Shows a beautiful notepad as the new tab page         |
-| **[JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?utm_source=chrome-app-launcher-info-dialog)**                 | Formats JSON files opened in the browser              |
-| **[Pesticide](https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh?utm_source=chrome-app-launcher-info-dialog)**                | Shows elements outlines                               |
-| **[GitHub Markdown Menu](https://chrome.google.com/webstore/detail/github-markdown-menu/jekgocfoijmbgcjejohdgmojaejofdpo)**                                                | Shows a markdown table of contents as a dropdown menu |
-| **[Tab Size on GitHub](https://chrome.google.com/webstore/detail/tab-size-on-github/ofjbgncegkdemndciafljngjbdpfmbkn?utm_source=chrome-app-launcher-info-dialog)**         | Decreases GitHub indentation wideness                 |
-| **[Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?utm_source=chrome-app-launcher-info-dialog)**                         | Detects technologies used by a website                |
-| **[WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)**                                                | Adds tools for accessibility testing                  |
-| **[Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?utm_source=chrome-app-launcher-info-dialog)**                   | Toolbar with various development helpers              |
-| **[WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?utm_source=chrome-app-launcher-info-dialog)**                             | Shows used font family on hover                       |
-
-<br>
-
-### Extensions (Angular)
-
-The following are my extensions specifically for Angular development.
-
-| Extension                                                                                       | Description                                                 |
-| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| **[Augury](https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd)** | Adds tools for debugging and profiling Angular applications |
-
-<br>
-
-### Extensions (React)
-
-The following are my extensions specifically for React development.
-
-| Extension                                                                                                                     | Description                                               |
-| ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| **[React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)** | Adds tools for debugging and profiling React applications |
+| Extension                                                                                                                                                                  | Description                                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **[Augury](https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd)**                                                                            | Adds tools for debugging and profiling Angular applications |
+| **[aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)**                                                                                  | Adds tools for accessibility testing                        |
+| **[Baseliner](https://chrome.google.com/webstore/detail/baseliner/agoopbiflnjadjfbhimhlmcbgmdgldld)**                                                                      | Show lines for vertical rhythm                              |
+| **[ChromeLens](https://chrome.google.com/webstore/detail/chromelens/idikgljglpfilbhaboonnpnnincjhjkd/related)**                                                            | Simulates visual impairments                                |
+| **[ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?utm_source=chrome-app-launcher-info-dialog)**                         | Color Picker                                                |
+| **[Contributors on GitHub](https://chrome.google.com/webstore/detail/contributors-on-github/cjbacdldhllelehomkmlniifaojgaeph?utm_source=chrome-app-launcher-info-dialog)** | Shows contribution details on GitHub PRs                    |
+| **[Dimensions](https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?utm_source=chrome-app-launcher-info-dialog)**                         | Measure dimensions of elements on hover                     |
+| **[Feature Queries Manager](https://chrome.google.com/webstore/detail/feature-queries-manager/fbhgnconlfgmienbmpbeeenffagggonp)**                                          | Manage CSS feature queries                                  |
+| **[Fireshot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?utm_source=chrome-app-launcher-info-dialog)**             | Makes full-sized screenshots                                |
+| **[Mindful](https://chrome.google.com/webstore/detail/mindful-beta/cieekmjjdkckhpidgaffphlaljdfhhab?utm_source=chrome-app-launcher-info-dialog)**                          | Shows a beautiful notepad as the new tab page               |
+| **[JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?utm_source=chrome-app-launcher-info-dialog)**                 | Formats JSON files opened in the browser                    |
+| **[Pesticide](https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh?utm_source=chrome-app-launcher-info-dialog)**                | Shows elements outlines                                     |
+| **[GitHub Markdown Menu](https://chrome.google.com/webstore/detail/github-markdown-menu/jekgocfoijmbgcjejohdgmojaejofdpo)**                                                | Shows a markdown table of contents as a dropdown menu       |
+| **[React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)**                                              | Adds tools for debugging and profiling React applications   |
+| **[Tab Size on GitHub](https://chrome.google.com/webstore/detail/tab-size-on-github/ofjbgncegkdemndciafljngjbdpfmbkn?utm_source=chrome-app-launcher-info-dialog)**         | Decreases GitHub indentation wideness                       |
+| **[Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?utm_source=chrome-app-launcher-info-dialog)**                         | Detects technologies used by a website                      |
+| **[WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)**                                                | Adds tools for accessibility testing                        |
+| **[Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?utm_source=chrome-app-launcher-info-dialog)**                   | Toolbar with various development helpers                    |
+| **[WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?utm_source=chrome-app-launcher-info-dialog)**                             | Shows used font family on hover                             |
 
 <br><br><br>
 
@@ -274,7 +254,7 @@ credential.helper=wincred # Remember credentials
 
 <br>
 
-### Alias
+### Alias [WIP, not verified]
 
 Git aliases, for common actions:
 
@@ -314,16 +294,12 @@ gpg.program=C:\Program Files (x86)\GnuPG\bin\gpg.exe
 
 ## [NodeJS](https://nodejs.org/)
 
-Installed via **[nvm for Windows](https://github.com/coreybutler/nvm-windows)**, preferrably
-
-- using the "nvm-setup" variant (cause why not?)
-- placing the installation to `C:\nvm`
-- choosing `C:\nodejs` as the NodeJS versions root folder
+Installed via **[nvm for Windows](https://github.com/coreybutler/nvm-windows)**, preferrably using the "nvm-setup" variant.
 
 Once nvm is installed, open a new console and setup the preferred NodeJS version:
 
 ```bash
-nvm install <VERSION>   # The version can also be "latest"
+nvm install <VERSION>
 nvm use <VERSION>
 ```
 
@@ -354,7 +330,7 @@ ConEmu is a terminal application which allowes for running multiple (even differ
 The following are my personal settings:
 
 - **Color theme: Twilight**<br>At "General", select the theme below "Choose color scheme"
-- **Increased console buffer**<br>At "General & Size & Pos" - "Console buffer height", activate "Long console output" and enter the biggest value possible (at the moment `32766`)
+- **Increased console buffer**<br>At "General" - "Size & Pos" - "Console buffer height", activate "Long console output" and enter the biggest value possible (at the moment `32766`)
 - **Default Task: PowerShell (Admin), with custom start directory**<br>At "Startup / Tasks", create a new task (e.g. named "Favourites::Development"). Activate "Default ask for new console", "Default shell", and "Taskbar jump lists". Define the default start directory within the task parameters, e.g. `/dir "C:\Projects"`. Use the command `powershell.exe -new_console:a`.
 
 <br>
@@ -403,12 +379,6 @@ The following is a list of further Software I usually get for development and te
 
 - **[ScreenToGif](https://www.screentogif.com/)** as a GIF screen recorder
 - **[Just Color Picker](https://annystudio.com/software/colorpicker/)** as a global color picker
-
-<br>
-
-### Additional
-
-- **[devhub](https://github.com/devhubapp/devhub)** as a GitHub notifications manager and activity watcher
 
 <br><br><br>
 
