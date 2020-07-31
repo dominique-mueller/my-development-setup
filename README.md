@@ -10,11 +10,11 @@ My personal development setup, for Frontend Development on Windows.
 
 ## Table of Contents
 
-- **[Visual Studio Code](#visual-studio-code)**<br>Setup, Theme, Extensions, Settings, Key Bindings
+- **[Visual Studio Code](#visual-studio-code)**<br>Setup, Theme, Font, Extensions, Settings, Key Bindings
 - **[Google Chrome](#google-chrome)**<br>Extensions
 - **[Git](#git)**<br>Settings, Alias, Commit Signing
 - **[NodeJS](#nodejs)**<br>nvm, npm, global packages
-- **[ConEmu](#conemu)**<br>Settings, PoshGit
+- **[ConEmu with PowerShell](#conemu-with-powershell)**<br>Settings, PoshGit
 - **[Other Software](#other-software)**<br>Browsers, FTP Client, ...
 
 <br><br><br>
@@ -319,7 +319,7 @@ Upgrading npm itself is sometimes tricky, especially on Windows. Use **[this scr
 
 <br><br><br>
 
-## [ConEmu](https://conemu.github.io/en/Downloads.html)
+## [ConEmu](https://conemu.github.io/en/Downloads.html) with [PowerShell](https://github.com/PowerShell/PowerShell)
 
 ConEmu is a terminal application which allowes for running multiple (even different) command lines tools within a tabbed window, while also enabling customizations and enhanced configuration.
 
