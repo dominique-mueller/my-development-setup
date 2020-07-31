@@ -380,6 +380,7 @@ The following is a list of further Software I usually get for development and te
 | Name                                                                                       | Description                                       |
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------- |
 | **[IntelliJ](https://www.jetbrains.com/de-de/idea/download/#section=windows)**             | IDE (for everything that I do not use VSCode for) |
+| **[NVDA](http://nvda.bhvd.de/)**                                                           | Screenreader (for testing accessibility)          |
 | **[Postman](https://www.getpostman.com/)**                                                 | HTTP API testing                                  |
 | **[Postwoman](https://postwoman.io/)**                                                     | HTTP / WebSocket & SSE API testing                |
 | **[Firecamp](https://firecamp.io/)**                                                       | HTTP / GraphQL / WebSocket API testing            |
