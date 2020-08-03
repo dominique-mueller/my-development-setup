@@ -109,6 +109,10 @@ The following are my settings (includes settings for extensions, theme, font, ..
   "docthis.includeMemberOfOnClassMembers": false,
   "docthis.includeMemberOfOnInterfaceMembers": false,
   "docthis.includeTypes": false,
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
   "editor.fontSize": 13,
   "editor.highlightActiveIndentGuide": false,
