@@ -256,30 +256,6 @@ credential.helper=wincred # Remember credentials
 
 <br>
 
-### Alias [WIP, not verified]
-
-Git aliases, for common actions:
-
-#### Set upstream of current banch
-
-```conf
-alias.set-upstream=!git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
-```
-
-#### Revert last commit (keeps the changes)
-
-```conf
-alias.pop=!git reset HEAD^
-```
-
-#### Clone without SSL certification verification
-
-```conf
-alias.clone-unsecure=!git -c http.sslVerify=false clone
-```
-
-<br>
-
 ### Commit Signing with GPG
 
 When working on GitHub, I usually set up **[Commit Signing via GPG](https://help.github.com/articles/signing-commits-with-gpg/)**.
