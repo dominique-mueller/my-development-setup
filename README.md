@@ -57,43 +57,38 @@ restart Visual Studio Code so that it knows about the font.
 The following are my must-have extensions for all kinds of web development. Depending on the project I am currently working on, I sometimes
 disable some extensions.
 
-| Extension                                                                                                                    | Description                                                       |
-| ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| **[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)**                      | Improve editing experience in Angular HTML templates              |
-| **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                     | Automatically rename HTML tag pairs                               |
-| **[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**                        | Colorize comments based on type (e.g. info, alert, question, ...) |
-| **[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)**         | Colorize matching brackets                                        |
-| **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                      | Analyze and show code complexity                                  |
-| **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                  | Debug Chrome from within Visual Studio Code                       |
-| **[Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug)**        | Debug Firefox from within Visual Studio Code                      |
-| **[Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)**                                | Docker file support & tooling                                     |
-| **[Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)**                                     | Generate JSDoc comments                                           |
-| **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**                            | Apply settings defined in .editconfig file                        |
-| **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**                                     | ESLint support                                                    |
-| **[GitHub Actions](https://marketplace.visualstudio.com/items?itemName=OmarTawfik.github-actions-vscode)**                   | GitHub Actions file support                                       |
-| **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**                                           | Enhanced Git support                                              |
-| **[Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)**                                            | Add indentation guide lines                                       |
-| **[Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)**                 | Add small image preview next to lines                             |
-| **[JSON5 syntax](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5)**                                  | Add JSON5 file support                                            |
-| **[Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)**            | Kubernetes tooling                                                |
-| **[Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)**                             | Real-time collaboration                                           |
-| **[Markdown Preview Github](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)**    | Markdown Preview in the Github Theme                              |
-| **[Markdown Preview BitBucket](https://marketplace.visualstudio.com/items?itemName=hbrok.markdown-preview-bitbucket)**       | Markdown Preview in the BitBucket Theme                           |
-| **[Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)**                            | Open HTML in browser(s)                                           |
-| **[Prettier Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**                    | Prettier support                                                  |
-| **[Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)**                                  | Compare code blocks                                               |
-| **[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)**                                             | Capture beautiful code screenshots                                |
-| **[Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)**                       | Manage multiple projects                                          |
-| **[Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)**                                          | SASS file support                                                 |
-| **[Sass Lint](https://marketplace.visualstudio.com/items?itemName=glen-84.sass-lint)**                                       | SASS linter                                                       |
-| **[Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)**                                      | Quickly sort lines in different ways / by different criteria      |
-| **[SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)**                                 | Add SVG file support                                              |
-| **[TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)**                        | Highlight TODOs, FIXMEs and similar                               |
-| **[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)**                                   | Add a TODO panel listing all TODO comments                        |
-| **[Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)**                        | Highlight and auto-remove trailing spaces                         |
-| **[Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)**                         | Show dependency version infos in package.json                     |
-| **[Vistual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)** | AI-assisted autocompletion                                        |
-| **[YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)**                                           | YAML file support                                                 |
+| Extension                                                                                                                    | Description                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| **[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)**                      | Improve editing experience in Angular HTML templates                            |
+| **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                     | Rename HTML / XML / JSX tag pairs (in addition to the "linked editing" setting) |
+| **[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**                        | Colorize comments based on type (e.g. info, alert, question, ...)               |
+| **[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)**       | Colorize matching brackets                                                      |
+| **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                      | Analyze and show code complexity                                                |
+| **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                  | Debug Chrome from within Visual Studio Code                                     |
+| **[Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug)**        | Debug Firefox from within Visual Studio Code                                    |
+| **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**                            | Apply settings defined in .editconfig file                                      |
+| **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**                                     | ESLint support                                                                  |
+| **[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)**                               | Enhanced Git support                                                            |
+| **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**                                           | Enhanced Git support                                                            |
+| **[Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)**                                            | Add indentation guide lines                                                     |
+| **[Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)**                 | Add small image preview next to lines                                           |
+| **[JSON5 syntax](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5)**                                  | Add JSON5 file support                                                          |
+| **[Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)**                             | Real-time collaboration                                                         |
+| **[Markdown Preview Github](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)**    | Markdown Preview in the Github Theme                                            |
+| **[Markdown Preview BitBucket](https://marketplace.visualstudio.com/items?itemName=hbrok.markdown-preview-bitbucket)**       | Markdown Preview in the BitBucket Theme                                         |
+| **[Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)**                            | Open HTML in browser(s)                                                         |
+| **[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**                                   | Prettier support                                                                |
+| **[Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)**                                  | Compare code blocks                                                             |
+| **[Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)**                                          | SASS file support                                                               |
+| **[Sass Lint](https://marketplace.visualstudio.com/items?itemName=glen-84.sass-lint)**                                       | SASS linter                                                                     |
+| **[Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)**                                      | Quickly sort lines in different ways / by different criteria                    |
+| **[SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)**                                 | Add SVG file support                                                            |
+| **[TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)**                        | Highlight TODOs, FIXMEs and similar                                             |
+| **[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)**                                   | Add a TODO panel listing all TODO comments                                      |
+| **[Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)**                        | Highlight and auto-remove trailing spaces                                       |
+| **[Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)**                         | Show dependency version infos in package.json                                   |
+| **[Vistual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)** | AI-assisted autocompletion                                                      |
+| **[YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)**                                           | YAML file support                                                               |
 
 <br>
 
@@ -103,12 +98,34 @@ The following are my settings (includes settings for extensions, theme, font, ..
 
 ```json
 {
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "off",
+    "editor.quickSuggestions": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
   "bracket-pair-colorizer-2.showVerticalScopeLine": false,
   "breadcrumbs.enabled": false,
-  "docthis.includeMemberOfOnClassMembers": false,
-  "docthis.includeMemberOfOnInterfaceMembers": false,
-  "docthis.includeTypes": false,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -117,6 +134,7 @@ The following are my settings (includes settings for extensions, theme, font, ..
   "editor.fontSize": 13,
   "editor.highlightActiveIndentGuide": false,
   "editor.lineHeight": 19,
+  "editor.linkedEditing": true,
   "editor.minimap.maxColumn": 140,
   "editor.renderIndentGuides": false,
   "editor.rulers": [140],
@@ -136,13 +154,10 @@ The following are my settings (includes settings for extensions, theme, font, ..
   "html.format.indentHandlebars": true,
   "html.format.indentInnerHtml": true,
   "html.format.wrapLineLength": 140,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
-  "javascript.implicitProjectConfig.checkJs": true,
-  "javascript.implicitProjectConfig.experimentalDecorators": true,
   "javascript.preferences.importModuleSpecifier": "relative",
   "javascript.preferences.quoteStyle": "single",
+  "prettier.printWidth": 140,
+  "prettier.singleQuote": true,
   "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.scrollback": 10000,
@@ -155,31 +170,11 @@ The following are my settings (includes settings for extensions, theme, font, ..
   "typescript.preferences.quoteStyle": "single",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.newWindowDimensions": "maximized",
+  "window.zoomLevel": 0,
   "workbench.colorTheme": "Oceanic Next (dimmed bg)",
   "workbench.commandPalette.history": 1000,
   "workbench.editor.closeOnFileDelete": true,
-  "workbench.tips.enabled": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "workbench.tips.enabled": false
 }
 ```
 
@@ -192,13 +187,13 @@ The following are my keyboard shortcuts:
 ```javascript
 [
   {
-    key: "ctrl+shift+space",
-    command: "editor.action.commentLine",
-    when: "editorTextFocus && !editorReadonly",
+    key: 'ctrl+shift+space',
+    command: 'editor.action.commentLine',
+    when: 'editorTextFocus && !editorReadonly',
   },
   {
-    key: "ctrl+shift+alt+f4",
-    command: "workbench.action.reloadWindow",
+    key: 'ctrl+shift+alt+f4',
+    command: 'workbench.action.reloadWindow',
   },
 ];
 ```
