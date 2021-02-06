@@ -295,9 +295,9 @@ ConEmu is a terminal application which allowes for running multiple (even differ
 
 The following are my personal settings:
 
-- **Color theme: Twilight**<br>At "General", select the theme below "Choose color scheme"
-- **Increased console buffer**<br>At "General" - "Size & Pos" - "Console buffer height", activate "Long console output" and enter the biggest value possible (at the moment `32766`)
-- **Default Task: PowerShell (Admin), with custom start directory**<br>At "Startup / Tasks", create a new task (e.g. named "Favourites::Development"). Activate "Default ask for new console", "Default shell", and "Taskbar jump lists". Define the default start directory within the task parameters, e.g. `/dir "C:\Projects"`. Use the command `powershell.exe -new_console:a`.
+- **Color theme: Twilight**<br>At _General_, select _Twilight_ below _Choose color scheme_
+- **Increased console buffer**<br>At _General / Size & Pos / Console buffer height_, activate _Long console output_ and enter the biggest value possible (at the moment `32766`)
+- **Default Task: PowerShell, with custom start directory**<br>At _Startup / Tasks_, create a new task (e.g. named "Favourites::Development"). Activate _Default task for new console_, _Default shell_, and _Taskbar jump lists_. Define the default start directory within the task parameters, e.g. `/dir C:\Projects`. Use the command `pwsh.exe`. At _Startup_, define it as the default task by selecting it below _Specific named task_.
 
 <br>
 
@@ -309,6 +309,8 @@ Displays additional Git status information (e.g. current branch, changes) within
 2. Update `PowerShellGet` to its latest version: `Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber`
 3. Install PoshGit: `PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force`
 4. Add PoshGit to PowerShell profile: `Add-PoshGitToProfile -AllHosts`
+
+> Some preparation steps might be optional depending on the system.
 
 <br><br><br>
 
