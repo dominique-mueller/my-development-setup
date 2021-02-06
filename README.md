@@ -281,19 +281,7 @@ nvm install <VERSION>
 nvm use <VERSION>
 ```
 
-<br>
-
-### npm
-
-Upgrading npm itself is sometimes tricky, especially on Windows. Use **[this script for upgrading npm](https://gist.github.com/johnmcase/d31b799b9030327091a0e74880e4c530)**, adapt paths if necessary.
-
-> Note: This script solves the **[nvm issue #300](https://github.com/coreybutler/nvm-windows/issues/300)** which is probably the reason for this issue.
-
-<br>
-
-### Global packages
-
-- [`ts-node`](https://github.com/TypeStrong/ts-node) quickly compiles and runs TypeScript files, even outside of projects. Install together with `typescript`.
+> Note: Upgrading npm by using npm is still an issue! See **[nvm-windows#300](https://github.com/coreybutler/nvm-windows/issues/300)**.
 
 <br><br><br>
 
