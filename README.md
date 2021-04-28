@@ -343,7 +343,7 @@ The following is a list of further Software I usually get for development and te
 | **[IntelliJ](https://www.jetbrains.com/de-de/idea/download/#section=windows)**             | IDE (for everything that I do not use VSCode for) |
 | **[NVDA](http://nvda.bhvd.de/)**                                                           | Screenreader (for testing accessibility)          |
 | **[Postman](https://www.getpostman.com/)**                                                 | HTTP API testing                                  |
-| **[Postwoman](https://postwoman.io/)**                                                     | HTTP / WebSocket & SSE API testing                |
+| **[Hoppscotch (prev. Postwoman)](https://hoppscotch.io/)**                                 | HTTP / WebSocket & SSE API testing                |
 | **[Firecamp](https://firecamp.io/)**                                                       | HTTP / GraphQL / WebSocket API testing            |
 | **[MQTT Explorer](http://mqtt-explorer.com/)**                                             | MQTT testing                                      |
 | **[FileZilla](https://filezilla-project.org/)**                                            | Simple FTP Client                                 |
