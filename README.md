@@ -120,9 +120,8 @@ The following are my settings (includes settings for extensions, theme, font, ..
     "source.fixAll.eslint": true
   },
   "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-  "editor.fontSize": 13,
   "editor.highlightActiveIndentGuide": false,
-  "editor.lineHeight": 19,
+  "editor.lineHeight": 20,
   "editor.linkedEditing": true,
   "editor.minimap.maxColumn": 140,
   "editor.renderIndentGuides": false,
@@ -159,11 +158,18 @@ The following are my settings (includes settings for extensions, theme, font, ..
   "typescript.preferences.quoteStyle": "single",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.newWindowDimensions": "maximized",
-  "window.zoomLevel": 0,
-  "workbench.colorTheme": "Oceanic Next (dimmed bg)",
   "workbench.commandPalette.history": 1000,
   "workbench.editor.closeOnFileDelete": true,
-  "workbench.tips.enabled": false
+  "workbench.tips.enabled": false,
+  "editor.fontSize": 13,
+  "emmet.showExpandedAbbreviation": "never",
+  "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+  "[json5]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.decorations.badges": false,
+  "workbench.startupEditor": "none",
+  "debug.javascript.codelens.npmScripts": "never"
 }
 ```
 
