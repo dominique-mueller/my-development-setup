@@ -8,17 +8,6 @@ My personal development setup, for Frontend Development on Windows.
 
 <br><br>
 
-## Table of Contents
-
-- **[Visual Studio Code](#visual-studio-code)**<br>Setup, Theme, Font, Extensions, Settings, Key Bindings
-- **[Google Chrome](#google-chrome)**<br>Extensions
-- **[Git](#git)**<br>Settings, Alias, Commit Signing
-- **[NodeJS](#nodejs)**<br>nvm, npm, global packages
-- **[ConEmu with PowerShell](#conemu-with-powershell)**<br>Settings, PoshGit
-- **[Other Software](#other-software)**<br>Browsers, FTP Client, ...
-
-<br><br><br>
-
 ## [Visual Studio Code](https://code.visualstudio.com/)
 
 Lightweight Code Editor, focused on and optimized for web development.
