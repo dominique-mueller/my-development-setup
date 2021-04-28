@@ -352,3 +352,4 @@ The following is a list of further Software I usually get for development and te
 | **[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)**                     | Manage Kubernetes clusters                        |
 | **[Kube Forwarder](https://www.electronjs.org/apps/kube-forwarder)**                       | Manage Kubernetes port-forwardings with a UI      |
 | **[Notepad++](https://notepad-plus-plus.org/download/v7.7.1.html)**                        | Universal file editor                             |
+| **[WinMerge](https://winmerge.org/)**                                                      | Compare files and folders                         |
