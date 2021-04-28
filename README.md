@@ -241,6 +241,7 @@ Version Control Software, accessibly via command line.
 ```conf
 user.name=<NAME>
 user.email=<EMAIL>
+core.autocrlf=false # Do not convert to Windows line feeds automatically (can lead to issues)
 push.default=current # Simplify pushing new branches to remote
 push.followtags=true # Always push tags along
 status.showUntrackedFiles=all # Show all files when changing directories
