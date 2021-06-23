@@ -35,9 +35,11 @@ dark - it's fantastic!
 
 ### Font
 
-A custom font? Yes, please! I'm currently a huge fan of Microsoft's **[Cascadia Code](https://github.com/microsoft/cascadia-code)**.
-Download the latest font zip file from the GitHub release page, unzip it and install every font within the "ttf" folder. Don't forget to
-restart Visual Studio Code so that it knows about the font.
+A custom font? Yes, please!
+
+- I am currently using the **[MonoLisa](https://www.monolisa.dev/)** font (paid) and I really do enjoy it
+- If you are looking for an alternative, I can highly recommend Microsoft's **[Cascadia Code](https://github.com/microsoft/cascadia-code)**
+  font (free)
 
 <br>
 
