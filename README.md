@@ -244,7 +244,6 @@ Version Control Software, accessibly via command line.
 ```conf
 user.name=<NAME>
 user.email=<EMAIL>
-core.autocrlf=false # Do not convert to Windows line feeds automatically
 core.ignorecase=false # Respect casing in file names
 push.default=current # Simplify pushing new branches to remote
 push.followtags=true # Always push tags along
@@ -253,6 +252,12 @@ credential.helper=wincred # Remember credentials
 ```
 
 > Also read **[Better Git configuration](https://blog.scottnonnenberg.com/better-git-configuration/)**.
+
+I am currently still unsure about the following options:
+
+```conf
+core.autocrlf=false # Do not convert to Windows line feeds automatically
+```
 
 <br>
 
