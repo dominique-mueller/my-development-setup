@@ -307,21 +307,18 @@ ConEmu is a terminal application which allowes for running multiple (even differ
 The following are my personal settings:
 
 - **Color theme: Twilight**<br>At _General_, select _Twilight_ below _Choose color scheme_
-- **Increased console buffer**<br>At _General / Size & Pos / Console buffer height_, activate _Long console output_ and enter the biggest value possible (at the moment `32766`)
 - **Default Task: PowerShell, with custom start directory**<br>At _Startup / Tasks_, create a new task (e.g. named "Development"). Activate _Default task for new console_, _Default shell_, and _Taskbar jump lists_. Use the command `pwsh.exe`. Click _Startup dir ..._ and select the folder that contains all projects. At _Startup_, define it as the default task by selecting it below _Specific named task_.
 
 <br>
 
 ### [PoshGit](https://github.com/dahlbyk/posh-git) for PowerShell
 
-Displays additional Git status information (e.g. current branch, changes) within the PowerShell at the beginning of lines. Set it up by running the following commands within the PowerShell:
+Displays additional Git status information (e.g. current branch, changes) within the PowerShell at the beginning of lines. Git, obviously,
+needs to be installed upfront. Set it up by running the following commands within the PowerShell:
 
-1. Change the execution policy: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm`
-2. Update `PowerShellGet` to its latest version: `Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber`
-3. Install PoshGit: `PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force`
-4. Add PoshGit to PowerShell profile: `Add-PoshGitToProfile -AllHosts`
-
-> Some preparation steps might be optional depending on the system.
+1. Optionl (might fail?): Update `PowerShellGet` to its latest version: `Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber`
+2. Install PoshGit: `PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force`
+3. Enable PoshGit by adding it to the PowerShell profile: `Add-PoshGitToProfile -AllHosts`
 
 <br><br><br>
 
