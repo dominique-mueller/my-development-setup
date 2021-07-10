@@ -308,7 +308,7 @@ The following are my personal settings:
 
 - **Color theme: Twilight**<br>At _General_, select _Twilight_ below _Choose color scheme_
 - **Increased console buffer**<br>At _General / Size & Pos / Console buffer height_, activate _Long console output_ and enter the biggest value possible (at the moment `32766`)
-- **Default Task: PowerShell, with custom start directory**<br>At _Startup / Tasks_, create a new task (e.g. named "Favourites::Development"). Activate _Default task for new console_, _Default shell_, and _Taskbar jump lists_. Define the default start directory within the task parameters, e.g. `/dir C:\Projects`. Use the command `pwsh.exe`. At _Startup_, define it as the default task by selecting it below _Specific named task_.
+- **Default Task: PowerShell, with custom start directory**<br>At _Startup / Tasks_, create a new task (e.g. named "Development"). Activate _Default task for new console_, _Default shell_, and _Taskbar jump lists_. Use the command `pwsh.exe`. Click _Startup dir ..._ and select the folder that contains all projects. At _Startup_, define it as the default task by selecting it below _Specific named task_.
 
 <br>
 
