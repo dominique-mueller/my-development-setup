@@ -284,16 +284,15 @@ gpg.program=C:\Program Files (x86)\GnuPG\bin\gpg.exe
 
 ## [NodeJS](https://nodejs.org/)
 
-Installed via **[nvm for Windows](https://github.com/coreybutler/nvm-windows)**, preferrably using the "nvm-setup" variant.
-
-Once nvm is installed, open a new console and setup the preferred NodeJS version:
+I manage multiple NodeJS versions via **[Volta](https://github.com/volta-cli/volta)**, a tool that's very similar to nvm but also runs on
+lovely Windows. Once installed (using the latest GitHub release asset binary), open a new console and setup the preferred NodeJS version:
 
 ```bash
-nvm install <VERSION>
-nvm use <VERSION>
+volta install node@<VERSION>
 ```
 
-> Note: Upgrading npm by using npm is still an issue! See **[nvm-windows#300](https://github.com/coreybutler/nvm-windows/issues/300)**.
+> Note: Windows developer mode needs to be enabled. See
+> [this docs page](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development).
 
 <br><br><br>
 
