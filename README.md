@@ -240,14 +240,22 @@ Version Control Software, accessibly via command line.
 
 ### Settings
 
-```conf
-user.name=<NAME>
-user.email=<EMAIL>
-core.ignorecase=false # Respect casing in file names
-push.default=current # Simplify pushing new branches to remote
-push.followtags=true # Always push tags along
-status.showUntrackedFiles=all # Show all files when changing directories
-credential.helper=wincred # Remember credentials
+Look at the current configuration using:
+
+```bash
+git config --global --list
+```
+
+Add options using:
+
+```bash
+git config --global user.name <NAME>
+git config --global user.email <EMAIL>
+git config --global core.ignorecase false # Respect casing in file names
+git config --global push.default current # Simplify pushing new branches to remote
+git config --global push.followtags true # Always push tags along
+git config --global status.showUntrackedFiles all # Show all files when changing directories
+git config --global credential.helper wincred # Remember credentials
 ```
 
 > Also read **[Better Git configuration](https://blog.scottnonnenberg.com/better-git-configuration/)**.
