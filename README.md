@@ -48,38 +48,38 @@ A custom font? Yes, please!
 The following are my must-have extensions for all kinds of web development. Depending on the project I am currently working on, I sometimes
 disable some extensions.
 
-| Extension                                                                                                                   | Description                                                                     |
-| --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| **[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)**                     | Improve editing experience in Angular HTML templates                            |
-| **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                    | Rename HTML / XML / JSX tag pairs (in addition to the "linked editing" setting) |
-| **[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**                       | Colorize comments based on type (e.g. info, alert, question, ...)               |
-| **[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)**      | Colorize matching brackets                                                      |
-| **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                     | Analyze and show code complexity                                                |
-| **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                 | Debug Chrome from within Visual Studio Code                                     |
-| **[Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug)**       | Debug Firefox from within Visual Studio Code                                    |
-| **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**                           | Apply settings defined in .editconfig file                                      |
-| **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**                                    | ESLint support                                                                  |
-| **[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)**                              | Enhanced Git support                                                            |
-| **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**                                          | Enhanced Git support                                                            |
-| **[Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)**                                           | Add indentation guide lines                                                     |
-| **[Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)**                | Add small image preview next to lines                                           |
-| **[JSON5 syntax](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5)**                                 | Add JSON5 file support                                                          |
-| **[Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)**                            | Real-time collaboration                                                         |
-| **[Markdown Preview Github](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)**   | Markdown Preview in the Github Theme                                            |
-| **[Markdown Preview BitBucket](https://marketplace.visualstudio.com/items?itemName=hbrok.markdown-preview-bitbucket)**      | Markdown Preview in the BitBucket Theme                                         |
-| **[Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)**                           | Open HTML in browser(s)                                                         |
-| **[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**                                  | Prettier support                                                                |
-| **[Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)**                                 | Compare code blocks                                                             |
-| **[Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)**                                         | SASS file support                                                               |
-| **[Sass Lint](https://marketplace.visualstudio.com/items?itemName=glen-84.sass-lint)**                                      | SASS linter                                                                     |
-| **[Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)**                                     | Quickly sort lines in different ways / by different criteria                    |
-| **[SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)**                                | Add SVG file support                                                            |
-| **[TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)**                       | Highlight TODOs, FIXMEs and similar                                             |
-| **[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)**                                  | Add a TODO panel listing all TODO comments                                      |
-| **[Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)**                       | Highlight and auto-remove trailing spaces                                       |
-| **[Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)**                        | Show dependency version infos in package.json                                   |
-| **[Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)** | AI-assisted autocompletion                                                      |
-| **[YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)**                                          | YAML file support                                                               |
+| Extension                                                                                                                           | Description                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| **[Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)**                             | Improve editing experience in Angular HTML templates                            |
+| **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**                            | Rename HTML / XML / JSX tag pairs (in addition to the "linked editing" setting) |
+| **[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**                               | Colorize comments based on type (e.g. info, alert, question, ...)               |
+| **[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)**              | Colorize matching brackets                                                      |
+| **[CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)**                             | Analyze and show code complexity                                                |
+| **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**                         | Debug Chrome from within Visual Studio Code                                     |
+| **[Debugger for Firefox](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug)**               | Debug Firefox from within Visual Studio Code                                    |
+| **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**                                   | Apply settings defined in .editconfig file                                      |
+| **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**                                            | ESLint support                                                                  |
+| **[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)**                                      | Enhanced Git support                                                            |
+| **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**                                                  | Enhanced Git support                                                            |
+| **[Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)**                                                   | Add indentation guide lines                                                     |
+| **[Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)**                        | Add small image preview next to lines                                           |
+| **[JSON5 syntax](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5)**                                         | Add JSON5 file support                                                          |
+| **[Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)**                                    | Real-time collaboration                                                         |
+| **[GitHub Markdown Preview (Extension Pack)](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)** | Markdown Preview in the Github Theme                                            |
+| **[Markdown Preview BitBucket](https://marketplace.visualstudio.com/items?itemName=hbrok.markdown-preview-bitbucket)**              | Markdown Preview in the BitBucket Theme                                         |
+| **[Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)**                                   | Open HTML in browser(s)                                                         |
+| **[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**                                          | Prettier support                                                                |
+| **[Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)**                                         | Compare code blocks                                                             |
+| **[Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)**                                                 | SASS file support                                                               |
+| **[Sass Lint](https://marketplace.visualstudio.com/items?itemName=glen-84.sass-lint)**                                              | SASS linter                                                                     |
+| **[Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)**                                             | Quickly sort lines in different ways / by different criteria                    |
+| **[SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)**                                        | Add SVG file support                                                            |
+| **[TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)**                               | Highlight TODOs, FIXMEs and similar                                             |
+| **[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)**                                          | Add a TODO panel listing all TODO comments                                      |
+| **[Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)**                               | Highlight and auto-remove trailing spaces                                       |
+| **[Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)**                                | Show dependency version infos in package.json                                   |
+| **[Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)**         | AI-assisted autocompletion                                                      |
+| **[YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)**                                                  | YAML file support                                                               |
 
 <br>
 
