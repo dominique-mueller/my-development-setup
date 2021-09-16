@@ -313,14 +313,19 @@ The following are my personal settings:
 
 Autocomplete based on command history can be enabled the following way:
 
-1. Open PowerShell profile file (will be created if it does not exist): `Notepad $profile`
-2. Configure autocomplete based on history via the arrow keys by adding:
+Open PowerShell profile file (will be created if it does not exist):
 
-    ```ps
-    # Autocompletion for arrow keys
-    Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
-    Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
-    ```
+```ps
+Notepad $profile
+```
+
+Then, configure autocomplete based on history via the arrow keys by adding:
+
+```ps
+# Autocompletion for arrow keys
+Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
+```
 
 <br>
 
@@ -329,9 +334,23 @@ Autocomplete based on command history can be enabled the following way:
 Displays additional Git status information (e.g. current branch, changes) within the PowerShell at the beginning of lines. Git, obviously,
 needs to be installed upfront. Set it up by running the following commands within the PowerShell:
 
-1. Optional (might fail?): Update `PowerShellGet` to its latest version: `Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber`
-2. Install PoshGit: `PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force`
-3. Enable PoshGit by adding it to the PowerShell profile: `Add-PoshGitToProfile -AllHosts`
+Update `PowerShellGet` to its latest version (optional, might fail):
+
+```ps
+Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber
+```
+
+Now, install PoshGit:
+
+```ps
+PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
+```
+
+Then, enable PoshGit by adding it to the PowerShell profile:
+
+```ps
+Add-PoshGitToProfile -AllHosts
+```
 
 <br><br><br>
 
