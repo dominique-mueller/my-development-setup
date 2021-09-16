@@ -315,13 +315,13 @@ Autocomplete based on command history can be enabled the following way:
 
 Open PowerShell profile file (will be created if it does not exist):
 
-```ps
+```powershell
 Notepad $profile
 ```
 
 Then, configure autocomplete based on history via the arrow keys by adding:
 
-```ps
+```powershell
 # Autocompletion for arrow keys
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
@@ -336,19 +336,19 @@ needs to be installed upfront. Set it up by running the following commands withi
 
 Update `PowerShellGet` to its latest version (optional, might fail):
 
-```ps
+```powershell
 Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber
 ```
 
 Now, install PoshGit:
 
-```ps
+```powershell
 PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 ```
 
 Then, enable PoshGit by adding it to the PowerShell profile:
 
-```ps
+```powershell
 Add-PoshGitToProfile -AllHosts
 ```
 
