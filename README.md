@@ -322,7 +322,7 @@ Notepad $profile
 Then, configure autocomplete based on history via the arrow keys by adding:
 
 ```powershell
-# Autocompletion for arrow keys
+# Autocomple based on history, via arrow keys
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 ```
