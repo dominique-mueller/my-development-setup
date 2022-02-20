@@ -150,6 +150,7 @@ The following are my settings (includes settings for extensions, theme, font, ..
   "html.format.wrapLineLength": 140,
   "javascript.preferences.importModuleSpecifier": "relative",
   "javascript.preferences.quoteStyle": "single",
+  "markdown-preview-github-styles.colorTheme": "light",
   "prettier.printWidth": 140,
   "prettier.singleQuote": true,
   "redhat.telemetry.enabled": true,
