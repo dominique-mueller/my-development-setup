@@ -8,12 +8,12 @@ My personal development setup, for Frontend Development on Windows.
 
 <br><br>
 
-## [Visual Studio Code](https://code.visualstudio.com/)
+## Code Editor: [Visual Studio Code](https://code.visualstudio.com/)
 
 Lightweight Code Editor, focused on and optimized for web development.
 
-> If I have to look into code that is not Frontend, I usually install and use
-> **[IntelliJ](https://www.jetbrains.com/de-de/idea/download/#section=windows)** for that.
+If I have to look into code other than Frontend, I usually install and use
+**[IntelliJ](https://www.jetbrains.com/de-de/idea/download/#section=windows)** for that.
 
 <br>
 
@@ -26,10 +26,8 @@ which is based on the Oceanic Next color palette! It's simple, it's dark - it's 
 
 ### Font
 
-I am currently using the **[MonoLisa](https://www.monolisa.dev/)** font (paid) and I really do enjoy it a lot.
-
-> If you are looking for an alternative, I can highly recommend Microsoft's **[Cascadia Code](https://github.com/microsoft/cascadia-code)**
-> font (free).
+I am currently using the **[MonoLisa](https://www.monolisa.dev/)** font (paid) and I really do enjoy it a lot. If you are looking for an
+alternative, I can highly recommend Microsoft's **[Cascadia Code](https://github.com/microsoft/cascadia-code)** font (free).
 
 <br>
 
@@ -208,7 +206,109 @@ The following are my keyboard shortcuts:
 
 <br><br><br>
 
-## [Google Chrome](https://www.google.de/chrome/index.html)
+## Console: [ConEmu](https://conemu.github.io/en/Downloads.html) running [PowerShell](https://www.microsoft.com/store/productId/9MZ1SNWT0N5D)
+
+ConEmu is a terminal wrapper application, adding useful features and customizations. Most interestingly, multiple consoles (even of
+different types) can run in the same window via a tab interface, and even be arranged in a single split-view.
+
+> [Windows Terminal](https://www.microsoft.com/store/productId/9N0DX20HK701) kinda goes into a similar direction, but is missing the same
+> level of split-view customization (e.g. freely movable borders, vertical split-views). So it's not a replacement / better alternative
+> (yet).
+
+<br>
+
+### Settings
+
+At "General",
+
+- find "Choose color scheme", then select "Twilight"
+
+At "Startup",
+
+- find "Specific named task", and make sure that "PowerShell" is selected
+
+At "Startup" > "Tasks", find the Powershell tasks and
+
+- enable both "Default task for new console" and "Default shell"
+- update the "Commands" to use "pwsh.exe"
+- click "Startup dir..." and select your projects folder
+
+<br>
+
+### Extension: [PoshGit](https://github.com/dahlbyk/posh-git) for PowerShell
+
+Displays additional Git status information (e.g. current branch, changes) within the PowerShell at the beginning of lines. Git, obviously,
+needs to be installed upfront.
+
+Run the following commands within a PowerShell:
+
+```powershell
+PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
+Add-PoshGitToProfile -AllHosts
+```
+
+<br><br><br>
+
+## Version Control: [Git](https://git-scm.com/)
+
+Version Control Software, accessibly via command line.
+
+<br>
+
+### Settings
+
+Look at the current configuration using:
+
+```bash
+git config --global --list
+```
+
+Add options using:
+
+```bash
+git config --global user.name <NAME>
+git config --global user.email <EMAIL>
+git config --global core.ignorecase false # Respect casing in file names
+git config --global push.default current # Simplify pushing new branches to remote
+git config --global push.followtags true # Always push tags along
+git config --global status.showUntrackedFiles all # Show all files when changing directories
+git config --global credential.helper wincred # Remember credentials
+```
+
+> Also read **[Better Git configuration](https://blog.scottnonnenberg.com/better-git-configuration/)**.
+
+<br>
+
+### Commit Signing with GPG
+
+Sometimes it is a good idea / might be required to setup **[Commit Signing via GPG](https://help.github.com/articles/signing-commits-with-gpg/)**.
+
+After installing **[GNU (for Windows)](https://gnupg.org/download/)**, continue **[generating a new GPG key and make it available to GitHub](https://help.github.com/articles/generating-a-new-gpg-key/)**. Then, use the following coniguration for Git:
+
+```conf
+user.signingkey=<KEY>
+commit.gpgsign=true
+gpg.program=C:\Program Files (x86)\GnuPG\bin\gpg.exe
+```
+
+<br><br><br>
+
+## Runtime: [NodeJS](https://nodejs.org/)
+
+I manage multiple NodeJS versions via **[Volta](https://github.com/volta-cli/volta)**, a tool that's very similar to nvm but also runs
+properly on Windows.
+
+Pre-requisite: Enable Developer Mode in the Settings app under "Privacy & security" > "For developers".
+
+Install preferred Node.js version:
+
+```bash
+volta install node@<VERSION>
+```
+
+<br><br><br>
+
+## Browser: [Google Chrome](https://www.google.de/chrome/index.html)
 
 Primary browser for development purposes.
 
@@ -242,130 +342,6 @@ sometimes disable some extensions.
 | **[Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm)**                     | Toolbar with various development helpers                    |
 | **[Web Vitals](https://chrome.google.com/webstore/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma)**                           | Website health metrics                                      |
 | **[WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm)**                               | Shows used font family on hover                             |
-
-<br><br><br>
-
-## [Git](https://git-scm.com/)
-
-Version Control Software, accessibly via command line.
-
-<br>
-
-### Settings
-
-Look at the current configuration using:
-
-```bash
-git config --global --list
-```
-
-Add options using:
-
-```bash
-git config --global user.name <NAME>
-git config --global user.email <EMAIL>
-git config --global core.ignorecase false # Respect casing in file names
-git config --global push.default current # Simplify pushing new branches to remote
-git config --global push.followtags true # Always push tags along
-git config --global status.showUntrackedFiles all # Show all files when changing directories
-git config --global credential.helper wincred # Remember credentials
-```
-
-> Also read **[Better Git configuration](https://blog.scottnonnenberg.com/better-git-configuration/)**.
-
-I am currently still unsure about the following options:
-
-```conf
-core.autocrlf=false # Do not convert to Windows line feeds automatically
-```
-
-<br>
-
-### Commit Signing with GPG
-
-When working on GitHub, I usually set up **[Commit Signing via GPG](https://help.github.com/articles/signing-commits-with-gpg/)**.
-
-After installing **[GNU (for Windows)](https://gnupg.org/download/)**, continue **[generating a new GPG key and make it available to GitHub](https://help.github.com/articles/generating-a-new-gpg-key/)**. Then, use the following coniguration for Git:
-
-```conf
-user.signingkey=<KEY>
-commit.gpgsign=true
-gpg.program=C:\Program Files (x86)\GnuPG\bin\gpg.exe
-```
-
-<br><br><br>
-
-## [NodeJS](https://nodejs.org/)
-
-I manage multiple NodeJS versions via **[Volta](https://github.com/volta-cli/volta)**, a tool that's very similar to nvm but also runs on
-lovely Windows. Once installed (using the latest GitHub release asset binary), open a new console and setup the preferred NodeJS version:
-
-```bash
-volta install node@<VERSION>
-```
-
-> Note: Windows developer mode needs to be enabled. See
-> [this docs page](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development).
-
-<br><br><br>
-
-## [ConEmu](https://conemu.github.io/en/Downloads.html) with [PowerShell](https://github.com/PowerShell/PowerShell)
-
-ConEmu is a terminal application which allowes for running multiple (even different) command lines tools within a tabbed window, while also enabling customizations and enhanced configuration.
-
-<br>
-
-### ConEmu Settings
-
-The following are my personal settings:
-
-- **Color theme: Twilight**<br>At _General_, select _Twilight_ below _Choose color scheme_
-- **Default Task: PowerShell, with custom start directory**<br>At _Startup / Tasks_, create a new task (e.g. named "Development"). Activate _Default task for new console_, _Default shell_, and _Taskbar jump lists_. Use the command `pwsh.exe`. Click _Startup dir ..._ and select the folder that contains all projects. At _Startup_, define it as the default task by selecting it below _Specific named task_.
-
-<br>
-
-### Improved PowerShell autocomplete
-
-Autocomplete based on command history can be enabled the following way:
-
-Open PowerShell profile file (will be created if it does not exist):
-
-```powershell
-Notepad $profile
-```
-
-Then, configure autocomplete based on history via the arrow keys by adding:
-
-```powershell
-# Autocomple based on history, via arrow keys
-Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
-Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
-```
-
-<br>
-
-### [PoshGit](https://github.com/dahlbyk/posh-git) for PowerShell
-
-Displays additional Git status information (e.g. current branch, changes) within the PowerShell at the beginning of lines. Git, obviously,
-needs to be installed upfront. Set it up by running the following commands within the PowerShell:
-
-Update `PowerShellGet` to its latest version (optional, might fail):
-
-```powershell
-Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber
-```
-
-Now, install PoshGit:
-
-```powershell
-PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
-```
-
-Then, enable PoshGit by adding it to the PowerShell profile:
-
-```powershell
-Add-PoshGitToProfile -AllHosts
-```
 
 <br><br><br>
 
