@@ -353,40 +353,37 @@ The following is a list of further Software I usually get for development and te
 
 ### Browsers
 
-| Name                                                           | Description                             |
-| -------------------------------------------------------------- | --------------------------------------- |
-| **[Google Chrome](https://www.google.de/chrome/index.html)**   | Primary browser                         |
-| **[Mozilla Firefox](https://www.mozilla.org/de/firefox/new/)** | Additional browser for testing purposes |
-| **[Microsoft Edge](https://www.microsoft.com/en-us/edge)**     | Additional browser for testing purposes |
-| **[Opera](https://www.opera.com/)**                            | Additional browser for testing purposes |
+| Name                | Source                                                          | Description                             |
+| ------------------- | --------------------------------------------------------------- | --------------------------------------- |
+| **Google Chrome**   | [Website](https://www.google.de/chrome/index.html)              | Primary browser                         |
+| **Mozilla Firefox** | [Store](https://www.microsoft.com/store/productId/9NZVDKPMR9RD) | Additional browser for testing purposes |
 
 <br>
 
 ### Design
 
-| Name                                                                  | Description                              |
-| --------------------------------------------------------------------- | ---------------------------------------- |
-| **[ScreenToGif](https://www.screentogif.com/)**                       | GIF screen recorder (e.g. for docs, PRs) |
-| **[Just Color Picker](https://annystudio.com/software/colorpicker/)** | Global color picker                      |
+| Name                  | Source                                                  | Description                              |
+| --------------------- | ------------------------------------------------------- | ---------------------------------------- |
+| **Figma**             | [Website](https://www.figma.com/de/downloads/)          | Design, Wireframing, Prototyping         |
+| **Just Color Picker** | [Website](https://annystudio.com/software/colorpicker/) | Global color picker                      |
+| **ScreenToGif**       | [Website](<(https://www.screentogif.com/)>)             | GIF screen recorder (e.g. for docs, PRs) |
 
 <br>
 
 ### Development Tools
 
-| Name                                                                                      | Description                                            |
-| ----------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| **[Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)** | Docker container management                            |
-| **[Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic)**                    | Analyze HTTP / HTTPS traffic, simulate corporate proxy |
-| **[FileZilla](https://filezilla-project.org)**                                            | Simple FTP Client                                      |
-| **[Firecamp](https://firecamp.io)**                                                       | HTTP / GraphQL / WebSocket API testing                 |
-| **[Hoppscotch (prev. Postwoman)](https://hoppscotch.io)**                                 | HTTP / WebSocket & SSE API testing                     |
-| **[IntelliJ](https://www.jetbrains.com/de-de/idea/download/#section=windows)**            | IDE (for everything that I do not use VSCode for)      |
-| **[Kube Forwarder](https://www.electronjs.org/apps/kube-forwarder)**                      | Manage Kubernetes port-forwardings with a UI           |
-| **[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl)**                     | Manage Kubernetes clusters                             |
-| **[MiniKube](https://github.com/kubernetes/minikube)**                                    | Running Kubernetes clusters locally                    |
-| **[MQTT Explorer](http://mqtt-explorer.com)**                                             | MQTT testing                                           |
-| **[Notepad++](https://notepad-plus-plus.org/downloads)**                                  | Universal file editor                                  |
-| **[NVDA](http://nvda.bhvd.de)**                                                           | Screenreader (for testing accessibility)               |
-| **[pgAdmin](https://www.pgadmin.org/download/pgadmin-4-windows)**                         | PostgreSQL database tool                               |
-| **[Postman](https://www.getpostman.com/)**                                                | HTTP API testing                                       |
-| **[WinMerge](https://winmerge.org)**                                                      | Compare files and folders                              |
+| Name                             | Source                                                             | Description                                            |
+| -------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------ |
+| **Postman**                      | [Website](https://www.getpostman.com)                              | HTTP API testing                                       |
+| **WinMerge**                     | [Website](https://winmerge.org)                                    | Compare files and folders                              |
+| **Fiddler Classic**              | [Website](https://www.telerik.com/fiddler/fiddler-classic)         | Analyze HTTP / HTTPS traffic, simulate corporate proxy |
+| **Firecamp**                     | [Website](https://firecamp.io)                                     | HTTP / GraphQL / WebSocket API testing                 |
+| **Hoppscotch (prev. Postwoman)** | [Website](https://hoppscotch.io)                                   | HTTP / WebSocket & SSE API testing                     |
+| **NVDA**                         | [Website](http://nvda.bhvd.de)                                     | Screenreader (for testing accessibility)               |
+| **FileZilla**                    | [Website](https://filezilla-project.org)                           | Simple FTP Client                                      |
+| **pgAdmin**                      | [Website](https://www.pgadmin.org/download/pgadmin-4-windows)      | PostgreSQL database tool                               |
+| **MQTT Explorer**                | [Website](http://mqtt-explorer.com)                                | MQTT testing                                           |
+| **Docker Desktop**               | [Website](https://docs.docker.com/desktop/install/windows-install) | Docker container management                            |
+| **MiniKube**                     | [Website](https://minikube.sigs.k8s.io/docs)                       | Running Kubernetes clusters locally                    |
+| **kubectl**                      | [Website](https://kubernetes.io/docs/tasks/tools)                  | Manage Kubernetes clusters                             |
+| **k9s**                          | [Website](https://k9scli.io/)                                      | Manage Kubernetes clusters                             |
