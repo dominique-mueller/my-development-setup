@@ -217,7 +217,7 @@ different types) can run in the same window via a tab interface, and even be arr
 
 <br>
 
-### Settings
+### ConEmu Settings
 
 At "General",
 
@@ -235,7 +235,27 @@ At "Startup" > "Tasks", find the Powershell tasks and
 
 <br>
 
-### Extension: [PoshGit](https://github.com/dahlbyk/posh-git) for PowerShell
+### PowerShell Settings
+
+Auto-complete based on command history can be enabled in PowerShell.
+
+Open PowerShell profile file (will be created if it does not exist):
+
+```powershell
+Notepad $profile
+```
+
+Add following configuration:
+
+```powershell
+# Autocomple based on history, via arrow keys
+Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
+```
+
+<br>
+
+### PowerShell Extension: [PoshGit](https://github.com/dahlbyk/posh-git) for PowerShell
 
 Displays additional Git status information (e.g. current branch, changes) within the PowerShell at the beginning of lines. Git, obviously,
 needs to be installed upfront.
