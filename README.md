@@ -288,11 +288,12 @@ Add options using:
 ```bash
 git config --global user.name <NAME>
 git config --global user.email <EMAIL>
-git config --global core.ignorecase false # Respect casing in file names
-git config --global push.default current # Simplify pushing new branches to remote
-git config --global push.followtags true # Always push tags along
-git config --global status.showUntrackedFiles all # Show all files when changing directories
-git config --global credential.helper wincred # Remember credentials
+git config --global core.ignorecase false # act case sensitive
+git config --global status.showUntrackedFiles all # show indivisual files in untracked directories
+git config --global push.default current # push new branches to origin by default
+git config --global push.autoSetupRemote true # auto-track branches pushed to origin
+git config --global push.followtags true # include tags when pushing
+git config --global credential.helper wincred # Remember credentials via Windows
 ```
 
 > Also read **[Better Git configuration](https://blog.scottnonnenberg.com/better-git-configuration/)**.
