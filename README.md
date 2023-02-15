@@ -385,9 +385,9 @@ The following is a list of further Software I usually get for development and te
 
 | Name                  | Source                                                  | Description                              |
 | --------------------- | ------------------------------------------------------- | ---------------------------------------- |
-| **Figma**             | [Website](https://www.figma.com/de/downloads/)          | Design, Wireframing, Prototyping         |
-| **Just Color Picker** | [Website](https://annystudio.com/software/colorpicker/) | Global color picker                      |
-| **ScreenToGif**       | [Website](<(https://www.screentogif.com/)>)             | GIF screen recorder (e.g. for docs, PRs) |
+| **Figma**             | [Website](https://www.figma.com/de/downloads)          | Design, Wireframing, Prototyping         |
+| **Just Color Picker** | [Website](https://annystudio.com/software/colorpicker) | Global color picker                      |
+| **ScreenToGif**       | [Website](<https://www.screentogif.com>)             | GIF screen recorder (e.g. for docs, PRs) |
 
 <br>
 
