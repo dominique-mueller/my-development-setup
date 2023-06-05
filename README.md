@@ -292,7 +292,6 @@ git config --global core.ignorecase false # act case sensitive
 git config --global status.showUntrackedFiles all # show indivisual files in untracked directories
 git config --global push.default current # push new branches to origin by default
 git config --global push.autoSetupRemote true # auto-track branches pushed to origin
-git config --global push.followtags true # include tags when pushing
 git config --global credential.helper wincred # Remember credentials via Windows
 ```
 
