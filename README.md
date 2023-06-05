@@ -382,11 +382,11 @@ The following is a list of further Software I usually get for development and te
 
 ### Design
 
-| Name                  | Source                                                  | Description                              |
-| --------------------- | ------------------------------------------------------- | ---------------------------------------- |
+| Name                  | Source                                                 | Description                              |
+| --------------------- | ------------------------------------------------------ | ---------------------------------------- |
 | **Figma**             | [Website](https://www.figma.com/de/downloads)          | Design, Wireframing, Prototyping         |
 | **Just Color Picker** | [Website](https://annystudio.com/software/colorpicker) | Global color picker                      |
-| **ScreenToGif**       | [Website](<https://www.screentogif.com>)             | GIF screen recorder (e.g. for docs, PRs) |
+| **ScreenToGif**       | [Website](https://www.screentogif.com)                 | GIF screen recorder (e.g. for docs, PRs) |
 
 <br>
 
@@ -394,6 +394,7 @@ The following is a list of further Software I usually get for development and te
 
 | Name                             | Source                                                             | Description                                            |
 | -------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------ |
+| **GitHub CLI**                   | [Website](https://cli.github.com/)                                 | GitHub CLI                                             |
 | **Postman**                      | [Website](https://www.getpostman.com)                              | HTTP API testing                                       |
 | **WinMerge**                     | [Website](https://winmerge.org)                                    | Compare files and folders                              |
 | **Fiddler Classic**              | [Website](https://www.telerik.com/fiddler/fiddler-classic)         | Analyze HTTP / HTTPS traffic, simulate corporate proxy |
