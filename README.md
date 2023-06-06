@@ -373,10 +373,10 @@ The following is a list of further Software I usually get for development and te
 
 ### Browsers
 
-| Name                | Source                                                          | Description                             |
-| ------------------- | --------------------------------------------------------------- | --------------------------------------- |
-| **Google Chrome**   | [Website](https://www.google.de/chrome/index.html)              | Primary browser                         |
-| **Mozilla Firefox** | [Store](https://www.microsoft.com/store/productId/9NZVDKPMR9RD) | Additional browser for testing purposes |
+| Name                | Source                                                                                                                      | Description        |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| **Google Chrome**   | [Website](https://www.google.de/chrome/index.html)                                                                          | Primary browser    |
+| **Mozilla Firefox** | [Store](https://www.microsoft.com/store/productId/9NZVDKPMR9RD), [Website](https://www.mozilla.org/en-US/firefox/browsers/) | Additional browser |
 
 <br>
 
