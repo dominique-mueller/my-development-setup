@@ -394,12 +394,13 @@ The following is a list of further Software I usually get for development and te
 
 | Name                             | Source                                                             | Description                                            |
 | -------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------ |
-| **GitHub CLI**                   | [Website](https://cli.github.com/)                                 | GitHub CLI                                             |
+| **Notepad++** (plugins:"JSTool") | [Website](https://notepad-plus-plus.org/downloads)                 | Universal file editor                                  |
 | **Postman**                      | [Website](https://www.getpostman.com)                              | HTTP API testing                                       |
 | **WinMerge**                     | [Website](https://winmerge.org)                                    | Compare files and folders                              |
 | **Fiddler Classic**              | [Website](https://www.telerik.com/fiddler/fiddler-classic)         | Analyze HTTP / HTTPS traffic, simulate corporate proxy |
 | **Firecamp**                     | [Website](https://firecamp.io)                                     | HTTP / GraphQL / WebSocket API testing                 |
 | **Hoppscotch (prev. Postwoman)** | [Website](https://hoppscotch.io)                                   | HTTP / WebSocket & SSE API testing                     |
+| **GitHub CLI**                   | [Website](https://cli.github.com/)                                 | GitHub CLI                                             |
 | **NVDA**                         | [Website](http://nvda.bhvd.de)                                     | Screenreader (for testing accessibility)               |
 | **FileZilla**                    | [Website](https://filezilla-project.org)                           | Simple FTP Client                                      |
 | **pgAdmin**                      | [Website](https://www.pgadmin.org/download/pgadmin-4-windows)      | PostgreSQL database tool                               |
