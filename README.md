@@ -394,7 +394,7 @@ The following is a list of further Software I usually get for development and te
 
 | Name                             | Source                                                             | Description                                            |
 | -------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------ |
-| **Notepad++** (plugins:"JSTool") | [Website](https://notepad-plus-plus.org/downloads)                 | Universal file editor                                  |
+| **Notepad++**                    | [Website](https://notepad-plus-plus.org/downloads)                 | Universal file editor                                  |
 | **Postman**                      | [Website](https://www.getpostman.com)                              | HTTP API testing                                       |
 | **WinMerge**                     | [Website](https://winmerge.org)                                    | Compare files and folders                              |
 | **Fiddler Classic**              | [Website](https://www.telerik.com/fiddler/fiddler-classic)         | Analyze HTTP / HTTPS traffic, simulate corporate proxy |
@@ -404,6 +404,7 @@ The following is a list of further Software I usually get for development and te
 | **NVDA**                         | [Website](http://nvda.bhvd.de)                                     | Screenreader (for testing accessibility)               |
 | **FileZilla**                    | [Website](https://filezilla-project.org)                           | Simple FTP Client                                      |
 | **pgAdmin**                      | [Website](https://www.pgadmin.org/download/pgadmin-4-windows)      | PostgreSQL database tool                               |
+| **MongoDB Compass**              | [Website](https://www.mongodb.com/try/download/compass)            | MongoDB database tool                                  |
 | **MQTT Explorer**                | [Website](http://mqtt-explorer.com)                                | MQTT testing                                           |
 | **Docker Desktop**               | [Website](https://docs.docker.com/desktop/install/windows-install) | Docker container management                            |
 | **MiniKube**                     | [Website](https://minikube.sigs.k8s.io/docs)                       | Running Kubernetes clusters locally                    |
