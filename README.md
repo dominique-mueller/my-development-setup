@@ -134,7 +134,9 @@ The following are my settings (includes settings for extensions, theme, font, ..
   "editor.lineHeight": 22,
   "editor.linkedEditing": true,
   "editor.minimap.maxColumn": 140,
-  "editor.rulers": [140],
+  "editor.rulers": [
+    140
+  ],
   "editor.stickyScroll.enabled": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
@@ -144,7 +146,6 @@ The following are my settings (includes settings for extensions, theme, font, ..
   "emmet.showExpandedAbbreviation": "never",
   "emmet.triggerExpansionOnTab": true,
   "explorer.confirmDragAndDrop": false,
-  "explorer.openEditors.visible": 0,
   "extensions.ignoreRecommendations": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -172,6 +173,10 @@ The following are my settings (includes settings for extensions, theme, font, ..
   "typescript.locale": "en",
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.windows": "C:\\Users\\domin\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+  },
   "window.commandCenter": true,
   "window.newWindowDimensions": "maximized",
   "workbench.colorTheme": "Deep Ocean",
