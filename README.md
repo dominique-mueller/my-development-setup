@@ -115,6 +115,7 @@ The following are my settings (includes settings for extensions, theme, font, ..
   "editor.rulers": [140],
   "editor.tabSize": 2,
   "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "gitlens.codeLens.enabled": false,
@@ -134,6 +135,7 @@ The following are my settings (includes settings for extensions, theme, font, ..
   "window.newWindowDimensions": "maximized",
   "workbench.colorTheme": "Deep Ocean",
   "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.decorations.badges": false,
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "workbench.tree.indent": 13
